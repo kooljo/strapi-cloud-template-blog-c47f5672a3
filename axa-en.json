@@ -1,0 +1,88 @@
+{
+    "type": "api::page-v2.page-v2",
+    "id": 1,
+    "data": {
+        "slug": "axa-world-map",
+        "createdAt": "2024-06-20T06:53:23.602Z",
+        "updatedAt": "2024-06-25T22:45:12.987Z",
+        "publishedAt": "2024-06-20T06:53:27.780Z",
+        "locale": "en",
+        "sectionName": "about us",
+        "metacontent": {
+            "id": 1,
+            "seoDescription": null,
+            "tweet": null,
+            "sharingDescription": null,
+            "title": "AXA Worldwide",
+            "sectionReferrer": "About us",
+            "summary": null,
+            "summaryStructured": null
+        },
+        "slices": [
+            {
+                "__component": "slices.cover",
+                "id": 2,
+                "anchorId": null,
+                "title": "AXA Worlwide",
+                "subtitle": "AXA Worlwide",
+                "shortTitle": null,
+                "video": null,
+                "backgroundVideoMp4": null,
+                "backgroundVideoWebm": null,
+                "bannerButton": []
+            },
+            {
+                "__component": "slices.paragraph",
+                "id": 2,
+                "anchorPoint": null,
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "At AXA, our mission to \"Protect what matters\" is embodied by our 147,000 employees and agents around the world."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Every day, we provide innovative solutions in the Group's property and casualty, health, life, savings, retirement, and asset management businesses."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Our goal? To help our customers manage risk, improve their care, preserve their wealth, and respond effectively to their specific needs."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

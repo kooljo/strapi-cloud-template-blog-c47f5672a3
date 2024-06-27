@@ -1,0 +1,880 @@
+{
+    "slug_en": "protecting-the-rights-and-the-health-of-children-in-pandemic-times",
+    "theme_en": {
+        "id": "YGF6hhcAADMAovWY",
+        "wioUrl": "wio://documents/YGF6hhcAADMAovWY"
+    },
+    "date_en": "2020-11-19T23:00:00+00:00",
+    "typeArticle_en": "News",
+    "metaContent_en": [
+        {
+            "seoDescription": "On World Children's Day, we are proud to reiterate our support for UNICEF. While children are less likely to get Covid-19, it is nonetheless important to act now to ensure that they don’t become the hidden victims of the pandemic.",
+            "tweet": "#AXA & #UNICEF: protecting the rights and the health of children in pandemic times.",
+            "sharingImage": {
+                "origin": {
+                    "id": "X7U0hxEAAC0AAEPA",
+                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/3d10d728-11a1-4386-9a2e-7a19d373b5f1_UNICEFUNI122425_Pirozzi1200X628.png",
+                    "width": 1200,
+                    "height": 628
+                },
+                "width": 1200,
+                "height": 628,
+                "url": "https://images.axa-contento-118412.eu/www-axa-com/3d10d728-11a1-4386-9a2e-7a19d373b5f1_UNICEFUNI122425_Pirozzi1200X628.png?auto=compress,format&rect=0,0,1200,628&w=1200&h=628",
+                "edit": {
+                    "background": "transparent",
+                    "zoom": 1.0,
+                    "crop": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "credits": null,
+                "alt": null,
+                "provider": "imgix",
+                "thumbnails": {}
+            },
+            "sharingDescription": "#AXA & #UNICEF: protecting the rights and the health of children in pandemic times.",
+            "title": "Protecting the rights and the health of children in pandemic times",
+            "summary": "On World Children's Day, we are proud to reiterate our support for UNICEF. While children are less likely to get Covid-19, it is nonetheless important to act now to ensure that they don’t become the hidden victims of the pandemic."
+        }
+    ],
+    "author_en": [
+        {}
+    ],
+    "body_en": [
+        {
+            "key": "cover$7d379476-98de-4f88-91f4-575db4f20eb2",
+            "value": {
+                "repeat": [
+                    {}
+                ],
+                "non-repeat": {
+                    "title": "Protecting the rights and the health of children in pandemic times",
+                    "subtitle": "On World Children's Day, we are proud to reiterate our support for UNICEF. While children are less likely to get Covid-19, it is nonetheless important to act now to ensure that they don’t become the hidden victims of the pandemic.",
+                    "shortTitle": "Protecting the rights and the health of children in pandemic times",
+                    "banner": {
+                        "origin": {
+                            "id": "X7U0ghEAACkAAEOl",
+                            "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                            "width": 1920,
+                            "height": 1280
+                        },
+                        "width": 1920,
+                        "height": 1280,
+                        "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                        "edit": {
+                            "background": "transparent",
+                            "zoom": 1.0,
+                            "crop": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "credits": null,
+                        "alt": null,
+                        "provider": "imgix",
+                        "thumbnails": {
+                            "small": {
+                                "origin": {
+                                    "id": "X7U0ghEAACkAAEOl",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                                    "width": 1920,
+                                    "height": 1280
+                                },
+                                "width": 768,
+                                "height": 576,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=107,0,1707,1280&w=768&h=576",
+                                "edit": {
+                                    "background": "transparent",
+                                    "zoom": 0.44999998807907104,
+                                    "crop": {
+                                        "x": -48,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            },
+                            "Medium": {
+                                "origin": {
+                                    "id": "X7U0ghEAACkAAEOl",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                                    "width": 1920,
+                                    "height": 1280
+                                },
+                                "width": 970,
+                                "height": 576,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=0,69,1920,1140&w=970&h=576",
+                                "edit": {
+                                    "background": "transparent",
+                                    "zoom": 0.5052083134651184,
+                                    "crop": {
+                                        "x": 0,
+                                        "y": -35
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "key": "paragraph$5f4f5dbe-8196-4ca1-8815-6e93362312e3",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "While children are less likely to catch the virus, and develop Covid-19 symptoms, the pandemic has nonetheless disrupted their lives and those of their families, as healthcare systems buckle under the pressure, borders close, and schools and businesses are shuttered.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "The economic crisis we are experiencing, caused by the Covid-19 pandemic, could plunge more than 86 million children below the poverty line. ",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 139,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 97,
+                                        "end": 116,
+                                        "type": "hyperlink",
+                                        "data": {
+                                            "preview": {
+                                                "title": "https://www.unicef.org/press-releases/unicef-calls-averting-lost-generation-covid-19-threatens-cause-irreversible-harm"
+                                            },
+                                            "url": "https://www.unicef.org/press-releases/unicef-calls-averting-lost-generation-covid-19-threatens-cause-irreversible-harm"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "In fact, the increase in poverty, school closures, and the deterioration in social services have pushed many children to work alongside their parents, to help their families make ends meet.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "The Covid-19 pandemic has also severely disrupted healthcare services for mothers and children, which could result in a substantial, multiyear setback in terms of the progress previously made in the quest to eliminate and prevent infant mortality. ",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 94,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "The Covid-19 pandemic is also adversely affecting global nutrition, particularly in countries where incomes are lower. Food has become less accessible, less available, and more expensive. It is estimated that around 368.5 million children – in 143 countries – who normally depend on school meal programs for a reliable source of daily nutrition must now find other sources of food.",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 66,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 188,
+                                        "end": 239,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 260,
+                                        "end": 380,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "To help UNICEF respond the needs of the most vulnerable children, AXA in the Philippines has donated USD 80,000 to support UNICEF’s efforts to alleviate the Covid-19 crisis in the country.",
+                                "spans": [
+                                    {
+                                        "start": 66,
+                                        "end": 187,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "carousel$d1d8c46d-9fea-4905-8714-3c682768f072",
+            "value": {
+                "repeat": [
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7UyrxEAACwAADuY",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/bfa1128b-d688-426b-ba55-9f2067d85bd8_Unicef_philippines04_web_1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/bfa1128b-d688-426b-ba55-9f2067d85bd8_Unicef_philippines04_web_1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Disinfection Kits delivery",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "With the help of AXA, UNICEF and its partners have delivered hygiene kits, food packages, personal protective equipment, and tents, and have drawn up guidelines for the prevention and control of infections.",
+                                    "spans": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7Zr4REAACoABaQL",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/695a0e6b-4b9f-475f-bd5d-9f507eafb0ce_UNICEFxAXA_web1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/695a0e6b-4b9f-475f-bd5d-9f507eafb0ce_UNICEFxAXA_web1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Hygiene Kits Distribution in Marikina",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "UNICEF is also helping the Filipino government source and distribute basic hygiene supplies, conduct training into how to use them, and install emergency sanitation stations.",
+                                    "spans": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7UzOhEAACgAAD36",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/88d662e5-f1f7-4df8-adaa-fcd3ec28b445_Unicef_philippines01_web_1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/88d662e5-f1f7-4df8-adaa-fcd3ec28b445_Unicef_philippines01_web_1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Sta. Ana Hospital tent",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "Lastly, UNICEF is working with partners to ensure regular access to education, social security, and protection for children, and to combat sexual violence against children. ",
+                                    "spans": []
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "non-repeat": {
+                    "title": "UNICEF in the Philippines",
+                    "subtitle": "During the Covid-19 crisis"
+                }
+            }
+        },
+        {
+            "key": "paragraph$4c5b16be-2024-4d67-bc54-5aae961abd93",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "In the face of the challenge of infant obesity, AXA has been supporting UNICEF - since 2019 - with two action programs in the Philippines and in Brazil, countries that are experiencing a massive problem of obesity in children and adolescents.",
+                                "spans": [
+                                    {
+                                        "start": 48,
+                                        "end": 78,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 94,
+                                        "end": 151,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "UNICEF, which defends the rights and the health of children worldwide, has made preventing obesity in children a centerpiece of its action plan since 2016, so that every child can grow up in good health.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Over three years, with the support of AXA, the actions taken by UNICEF will focus on:",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "Training courses in maternity wards, hospitals, schools, and nurseries so that healthcare professionals and social workers, managers and teachers, develop the right reflexes to fight against infant obesity.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "Communications campaigns targeting children under the age of 5, their families, and their friends and focused on the importance of a balanced diet and a healthy lifestyle.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "A campaign targeting local policymakers, focused on persuading them to create an environment that favors weight loss: review of legislation pertaining to nutrition.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": " ",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "heading6",
+                            "content": {
+                                "text": "*UNICEF does not endorse any company, brand, product, or service. ",
+                                "spans": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "documentsSlice$af4345c5-a138-4f34-b40b-38016962bf51",
+            "value": {
+                "repeat": [
+                    {
+                        "target": {
+                            "id": "Xp_tVxMAADUMumI_",
+                            "wioUrl": "wio://documents/Xp_tVxMAADUMumI_"
+                        },
+                        "title": "Discover our partnership with UNICEF"
+                    }
+                ],
+                "non-repeat": {
+                    "anchorPoint": "",
+                    "reverse": "no"
+                }
+            }
+        }
+    ],
+    "related_articles_en": [
+        {}
+    ],
+    "slug_fr": "Proteger-les-droits-et-la-sante-des-enfants-en-temps-de-pandemie",
+    "theme_fr": {
+        "id": "YGF6hhcAADMAovWY",
+        "wioUrl": "wio://documents/YGF6hhcAADMAovWY"
+    },
+    "date_fr": "2020-11-19T23:00:00+00:00",
+    "typeArticle_fr": "News",
+    "metaContent_fr": [
+        {
+            "seoDescription": "A l’occasion de la Journée mondiale de l’enfance, nous sommes fiers de réitérer notre soutien à UNICEF. Si les enfants sont moins susceptibles de tomber malades de la Covid-19, il faut néanmoins agir maintenant, pour qu’ils ne deviennent pas des victimes cachées de la pandémie.",
+            "tweet": "#AXA & #UNICEF : protéger les droits et la santé des enfants en temps de pandémie.",
+            "sharingImage": {
+                "origin": {
+                    "id": "X7U0hxEAAC0AAEPA",
+                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/3d10d728-11a1-4386-9a2e-7a19d373b5f1_UNICEFUNI122425_Pirozzi1200X628.png",
+                    "width": 1200,
+                    "height": 628
+                },
+                "width": 1200,
+                "height": 628,
+                "url": "https://images.axa-contento-118412.eu/www-axa-com/3d10d728-11a1-4386-9a2e-7a19d373b5f1_UNICEFUNI122425_Pirozzi1200X628.png?auto=compress,format&rect=0,0,1200,628&w=1200&h=628",
+                "edit": {
+                    "background": "transparent",
+                    "zoom": 1.0,
+                    "crop": {
+                        "x": 0,
+                        "y": 0
+                    }
+                },
+                "credits": null,
+                "alt": null,
+                "provider": "imgix",
+                "thumbnails": {}
+            },
+            "sharingDescription": "#AXA & #UNICEF : protéger les droits et la santé des enfants en temps de pandémie.",
+            "title": "Protéger les droits et la santé des enfants en temps de pandémie",
+            "summary": "A l’occasion de la Journée mondiale de l’enfance, nous sommes fiers de réitérer notre soutien à UNICEF. Si les enfants sont moins susceptibles de tomber malades de la Covid-19, il faut néanmoins agir maintenant, pour qu’ils ne deviennent pas des victimes cachées de la pandémie."
+        }
+    ],
+    "author_fr": [
+        {}
+    ],
+    "body_fr": [
+        {
+            "key": "cover$03a0881c-c0bb-4ceb-8105-d91c64d9e928",
+            "value": {
+                "repeat": [
+                    {}
+                ],
+                "non-repeat": {
+                    "title": "Protéger les droits et la santé des enfants en temps de pandémie",
+                    "subtitle": "A l’occasion de la Journée mondiale de l’enfance, nous sommes fiers de réitérer notre soutien à UNICEF. Si les enfants sont moins susceptibles de tomber malades de la Covid-19, il faut néanmoins agir maintenant, pour qu’ils ne deviennent pas des victimes cachées de la pandémie.",
+                    "shortTitle": "Protéger les droits et la santé des enfants en temps de pandémie",
+                    "banner": {
+                        "origin": {
+                            "id": "X7U0ghEAACkAAEOl",
+                            "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                            "width": 1920,
+                            "height": 1280
+                        },
+                        "width": 1920,
+                        "height": 1280,
+                        "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                        "edit": {
+                            "background": "transparent",
+                            "zoom": 1.0,
+                            "crop": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "credits": null,
+                        "alt": null,
+                        "provider": "imgix",
+                        "thumbnails": {
+                            "small": {
+                                "origin": {
+                                    "id": "X7U0ghEAACkAAEOl",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                                    "width": 1920,
+                                    "height": 1280
+                                },
+                                "width": 768,
+                                "height": 576,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=107,0,1707,1280&w=768&h=576",
+                                "edit": {
+                                    "background": "transparent",
+                                    "zoom": 0.44999998807907104,
+                                    "crop": {
+                                        "x": -48,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            },
+                            "Medium": {
+                                "origin": {
+                                    "id": "X7U0ghEAACkAAEOl",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png",
+                                    "width": 1920,
+                                    "height": 1280
+                                },
+                                "width": 970,
+                                "height": 576,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/1c14f298-f999-484e-bde3-3d9d01af766b_UNICEFUNI122425_Pirozzi1920x1280.png?auto=compress,format&rect=0,69,1920,1140&w=970&h=576",
+                                "edit": {
+                                    "background": "transparent",
+                                    "zoom": 0.5052083134651184,
+                                    "crop": {
+                                        "x": 0,
+                                        "y": -35
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "key": "paragraph$d822937e-3f53-4273-908f-1ef82385c12b",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Si les enfants sont moins susceptibles d’attraper le virus et de tomber malades de la Covid-19, la pandémie a néanmoins bouleversé leurs vies et celles de leurs familles alors que les systèmes de santé se détériorent, que les frontières se ferment et que les écoles et les entreprises ferment leurs portes.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "La crise économique que nous traversons, causée par la pandémie de Covid-19, pourrait faire basculer plus de 86 millions d’enfants sous le seuil de pauvreté. ",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 157,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 109,
+                                        "end": 130,
+                                        "type": "hyperlink",
+                                        "data": {
+                                            "preview": {
+                                                "title": "https://www.unicef.fr/contenu/tags/coronavirus?liste=1"
+                                            },
+                                            "url": "https://www.unicef.fr/contenu/tags/coronavirus?liste=1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "En effet, l’augmentation de la pauvreté, la fermeture des écoles, et la détérioration des services sociaux ont poussé de nombreux enfants à travailler aux côtés de leurs parents pour subvenir aux besoins de leurs familles.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "La pandémie de Covid-19 a également causé des perturbations très importantes dans les services de soins destinés aux mères et aux enfants, qui pourraient faire reculer de plusieurs années le progrès dans l’élimination de la prévention de la mortalité infantile. ",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 137,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "La pandémie de Covid-19 nuit également à la nutrition dans le monde, en particulier dans les pays à faible revenu et à revenu intermédiaire. La nourriture est devenue moins accessible, abordable et disponible. On estime à environ 368,5 millions, le nombre d’enfants – répartis dans 143 pays – dépendant normalement des repas scolaires pour une source fiable de nutrition quotidienne qui doivent désormais se tourner vers d'autres sources.",
+                                "spans": [
+                                    {
+                                        "start": 0,
+                                        "end": 67,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 210,
+                                        "end": 266,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 293,
+                                        "end": 437,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Pour aider UNICEF à répondre aux besoins des enfants les plus vulnérables, AXA aux Philippines a fait don de 80,000 US dollars, pour soutenir la réponse d’UNICEF à la crise liée à la Covid-19 dans le pays.",
+                                "spans": [
+                                    {
+                                        "start": 75,
+                                        "end": 204,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "carousel$f5900ee2-9a69-4cc7-9f9b-eba1d56a10ce",
+            "value": {
+                "repeat": [
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7UyrxEAACwAADuY",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/bfa1128b-d688-426b-ba55-9f2067d85bd8_Unicef_philippines04_web_1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/bfa1128b-d688-426b-ba55-9f2067d85bd8_Unicef_philippines04_web_1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Livraison de kits de désinfection",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "Avec l’aide d’AXA, UNICEF et ses partenaires ont délivré des kits d’hygiène, des colis alimentaires, des équipements de protection individuelle ainsi que des tentes et ont élaboré des directives pour la prévention et le contrôle des infections.   ",
+                                    "spans": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7Zr4REAACoABaQL",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/695a0e6b-4b9f-475f-bd5d-9f507eafb0ce_UNICEFxAXA_web1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/695a0e6b-4b9f-475f-bd5d-9f507eafb0ce_UNICEFxAXA_web1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Distribution des kits d'hygiène à Marikina",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "UNICEF aide aussi le gouvernement philippin à se procurer et distribuer des fournitures d’hygiène essentielles, à effectuer des formations sur leur utilisation et à mettre en place des installations sanitaires d’urgence.",
+                                    "spans": []
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "image": {
+                            "origin": {
+                                "id": "X7UzOhEAACgAAD36",
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/88d662e5-f1f7-4df8-adaa-fcd3ec28b445_Unicef_philippines01_web_1920x1280.png",
+                                "width": 1920,
+                                "height": 1280
+                            },
+                            "width": 1920,
+                            "height": 1280,
+                            "url": "https://images.axa-contento-118412.eu/www-axa-com/88d662e5-f1f7-4df8-adaa-fcd3ec28b445_Unicef_philippines01_web_1920x1280.png?auto=compress,format&rect=0,0,1920,1280&w=1920&h=1280",
+                            "edit": {
+                                "background": "transparent",
+                                "zoom": 1.0,
+                                "crop": {
+                                    "x": 0,
+                                    "y": 0
+                                }
+                            },
+                            "credits": null,
+                            "alt": null,
+                            "provider": "imgix",
+                            "thumbnails": {}
+                        },
+                        "title": "Tente à l'hôpital Sta. Ana",
+                        "paragraph": [
+                            {
+                                "type": "paragraph",
+                                "content": {
+                                    "text": "Enfin, UNICEF travaille avec des partenaires pour assurer à accès continu à l’éducation, à la protection sociale et à la protection des enfants, et lutter contre les violences basées sur le genre.",
+                                    "spans": [
+                                        {
+                                            "start": 165,
+                                            "end": 166,
+                                            "type": "em"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "non-repeat": {
+                    "title": "UNICEF aux Philippines",
+                    "subtitle": "Pendant la crise de la Covid-19"
+                }
+            }
+        },
+        {
+            "key": "paragraph$21f90fd1-01b7-45f0-a1df-59223262ef53",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Face au défi de l’obésité infantile, AXA soutient UNICEF - depuis 2019 - avec deux programmes d’actions aux Philippines et au Brésil, pays massivement confrontés au surpoids chez les enfants et les adolescents.",
+                                "spans": [
+                                    {
+                                        "start": 37,
+                                        "end": 56,
+                                        "type": "strong"
+                                    },
+                                    {
+                                        "start": 73,
+                                        "end": 132,
+                                        "type": "strong"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "UNICEF qui défend les droits et la santé des enfants dans le monde, a placé dès 2016 la prévention du surpoids et de l’obésité infantile au cœur de son plan d’action pour garantir que chaque enfant puisse grandir en bonne santé.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Sur trois années, avec le soutien d’AXA, les actions d’UNICEF porteront sur :",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "Les formations dans les maternités, les hôpitaux, les écoles et nurseries afin de donner aux professionnels de santé et travailleurs sociaux, aux managers et professeurs les bons réflexes pour lutter contre l’obésité infantile.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "Des campagnes de communication auprès des enfants de moins de 5 ans, leurs familles et leurs proches sur l’importance de manger équilibré et d’adopter un mode de vie sain.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "list-item",
+                            "content": {
+                                "text": "Un plaidoyer auprès des autorités locales pour la création d’un environnement favorable à la réduction du surpoids : examen des législations en matière d’alimentation.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": " ",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "heading6",
+                            "content": {
+                                "text": "*UNICEF ne cautionne aucune entreprise, marque, produit ou service. ",
+                                "spans": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "documentsSlice$7ecac100-265a-4e8c-92a2-77f3fb866cb3",
+            "value": {
+                "repeat": [
+                    {
+                        "target": {
+                            "id": "Xp_tVxMAADUMumI_",
+                            "wioUrl": "wio://documents/Xp_tVxMAADUMumI_"
+                        },
+                        "title": "En savoir plus sur notre partenariat avec UNICEF"
+                    }
+                ],
+                "non-repeat": {
+                    "anchorPoint": "",
+                    "reverse": "no"
+                }
+            }
+        }
+    ],
+    "related_articles_fr": [
+        {}
+    ],
+    "type": "article-v2",
+    "tags": [],
+    "lang": "en-us",
+    "grouplang": "X7Uz7hEAACcAAEEV"
+}

@@ -1,0 +1,6132 @@
+{
+  "EN": {
+    "slug_en": {
+      "type": "Text",
+      "fieldset": "Slug",
+      "config": {
+        "placeholder": "Slug",
+        "label": "Slug",
+        "useAsTitle": true
+      }
+    },
+    "metaContent_en": {
+      "type": "Group",
+      "config": {
+        "repeat": false,
+        "fields": {
+          "seoDescription": {
+            "type": "Text",
+            "config": {
+              "label": "SEO Description",
+              "placeholder": "SEO Description"
+            }
+          },
+          "tweet": {
+            "type": "Text",
+            "fieldset": "Social network sharing",
+            "config": {
+              "placeholder": "Tweet",
+              "label": "Tweet (use #AXA in your sharing text)"
+            }
+          },
+          "sharingImage": {
+            "type": "Image",
+            "fieldset": "Sharing Image (1200x628)",
+            "config": {
+              "placeholder": "1200x628",
+              "constraint": {
+                "width": 1200,
+                "height": 628
+              }
+            }
+          },
+          "sharingDescription": {
+            "type": "Text",
+            "fieldset": "Sharing Description",
+            "config": {
+              "placeholder": "Sharing Description",
+              "label": "Sharing Description"
+            }
+          },
+          "title": {
+            "type": "Text",
+            "fieldset": "Main info of your page",
+            "config": {
+              "placeholder": "Your title",
+              "label": "Title"
+            }
+          },
+          "sectionReferrer": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "About us",
+                "Commitments",
+                "Insights",
+                "Press",
+                "Investor",
+                "Careers"
+              ],
+              "label": "Referrer",
+              "placeholder": "Choose your referrer"
+            }
+          },
+          "summary": {
+            "type": "Text",
+            "config": {
+              "label": "Summary",
+              "placeholder": "Your summary"
+            }
+          },
+          "summaryStructured": {
+            "type": "StructuredText",
+            "config": {
+              "label": "Summary video banner",
+              "placeholder": "Enter the video banner summary"
+            }
+          }
+        }
+      }
+    },
+    "restriction_en": {
+      "type": "Link",
+      "fieldset": "Restriction",
+      "config": {
+        "placeholder": "Reference",
+        "select": "document",
+        "masks": [
+          "restriction"
+        ]
+      }
+    },
+    "sectionName_en": {
+      "type": "Text",
+      "config": {
+        "placeholder": "Your section name",
+        "label": "Section name"
+      }
+    },
+    "maskType_en": {
+      "type": "Text",
+      "fieldset": "Configuration (Do not touch this part)",
+      "config": {
+        "placeholder": "Config ID"
+      }
+    },
+    "body_en": {
+      "type": "Slices",
+      "fieldset": "Content",
+      "config": {
+        "choices": {
+          "anchorBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Anchor paragraph",
+                  "placeholder": "Anchor Paragraph"
+                }
+              }
+            },
+            "fieldset": "Anchor block",
+            "description": "React component",
+            "icon": "attach_file"
+          },
+          "cardsBlock": {
+            "type": "Slice",
+            "fieldset": "Cards block",
+            "description": "React component",
+            "icon": "crop_7_5",
+            "repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "text",
+                  "placeholder": ""
+                }
+              },
+              "ctaLabel": {
+                "type": "Text",
+                "fieldset": "Link button",
+                "config": {
+                  "label": "Link name",
+                  "placeholder": ""
+                }
+              },
+              "ctaLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Link reference"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "placeholder": "Image",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "carousel": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title of the slice"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": []
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "fieldset": "∞ Carousel - 8 items max",
+            "description": "React Component",
+            "icon": "view_column"
+          },
+          "spotlightNews": {
+            "type": "Slice",
+            "non-repeat": {
+              "mainArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Article link",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": []
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              },
+              "eventLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Event Link",
+                  "select": "document",
+                  "masks": [
+                    "event"
+                  ]
+                }
+              }
+            },
+            "repeat": {
+              "article": {
+                "type": "Link",
+                "config": {
+                  "label": "Article link",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Spotlight News",
+            "description": "React component"
+          },
+          "titleWithSubtitle": {
+            "type": "Slice",
+            "fieldset": "Title with subtitle",
+            "description": "React component",
+            "icon": "power_input",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": ""
+                }
+              }
+            }
+          },
+          "simpleCardDeck": {
+            "type": "Slice",
+            "fieldset": "Simple Card Deck",
+            "description": "React component",
+            "icon": "view_week",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "fieldset": "Background color",
+                "config": {
+                  "label": "Select a background color (default: white)",
+                  "options": [
+                    "white",
+                    "gray"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Bottom Button's text",
+                  "placeholder": "Select a text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Bottom Button Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Card's image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 768,
+                      "height": 432
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Card's Title",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Card's Text",
+                  "placeholder": "Select a StructuredText"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Button's Text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            }
+          },
+          "iconTextBlock": {
+            "type": "Slice",
+            "fieldset": "Icon Text Block",
+            "icon": "art_track",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "fieldset": "Background color",
+                "config": {
+                  "label": "Select a background color (default: white)",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title"
+                }
+              }
+            },
+            "repeat": {
+              "iconImage": {
+                "type": "Select",
+                "fieldset": "Icon Image",
+                "config": {
+                  "label": "Select your icon",
+                  "options": [
+                    "IconCheck",
+                    "IconInstagram",
+                    "IconDocument",
+                    "IconYoutube",
+                    "IconStar",
+                    "IconLinkedin",
+                    "IconValidation",
+                    "IconContract",
+                    "IconCalendar",
+                    "IconCalendarFull",
+                    "IconWine"
+                  ],
+                  "default_value": "IconCheck"
+                }
+              },
+              "iconColor": {
+                "type": "Select",
+                "fieldset": "Icon color",
+                "config": {
+                  "label": "Select the icon color",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "text",
+                  "placeholder": ""
+                }
+              }
+            }
+          },
+          "cover": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              },
+              "video": {
+                "type": "Embed",
+                "config": {
+                  "label": "Player video",
+                  "placeholder": "Paste a video URL"
+                }
+              },
+              "banner": {
+                "type": "Image",
+                "config": {
+                  "label": "Banner Image (Mandatory)",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 576
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 576
+                    }
+                  ]
+                }
+              },
+              "backgroundVideoMp4": {
+                "type": "Link",
+                "config": {
+                  "label": "Background vidéo (mp4)"
+                }
+              },
+              "backgroundVideoWebm": {
+                "type": "Link",
+                "config": {
+                  "label": "Background vidéo (webm)"
+                }
+              }
+            },
+            "repeat": {
+              "bannerButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Name",
+                  "placeholder": "Button name"
+                }
+              },
+              "bannerButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link"
+                }
+              }
+            },
+            "fieldset": "Cover image or video loop",
+            "description": "React Component",
+            "icon": "panorama"
+          },
+          "coverTextOnly": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              }
+            },
+            "fieldset": "Cover text only",
+            "description": "React Component"
+          },
+          "coverColorBackground": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              },
+              "video": {
+                "type": "Embed",
+                "config": {
+                  "label": "Player video",
+                  "placeholder": "Paste a video URL"
+                }
+              }
+            },
+            "fieldset": "Cover Color Background",
+            "description": "React Component"
+          },
+          "publicationsSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Publications Title",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "All Publications Link label",
+                  "placeholder": "Write your text here"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "All Publications Link",
+                  "placeholder": "Link (web/document/media)",
+                  "select": null,
+                  "masks": null,
+                  "allowTargetBlank": true
+                }
+              }
+            },
+            "repeat": {
+              "publication": {
+                "type": "Link",
+                "config": {
+                  "label": "Publication",
+                  "select": "document",
+                  "masks": [
+                    "publication"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Publications",
+            "description": "React component"
+          },
+          "contacts": {
+            "type": "Slice",
+            "fieldset": "Contact with photo",
+            "icon": "group_add",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "fieldset": "contacts",
+                "config": {
+                  "placeholder": "Contact title",
+                  "label": "Contact title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "fieldset": "Contacts",
+                "config": {
+                  "placeholder": "Contact subtitle",
+                  "label": "Contact subtitle"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "fieldset": "Contact Link",
+                "config": {
+                  "placeholder": "Contact link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Contact button name"
+                }
+              }
+            },
+            "repeat": {
+              "contact": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "masks": [
+                    "contact"
+                  ],
+                  "placeholder": "Contact document"
+                }
+              }
+            }
+          },
+          "newsletterBlock": {
+            "type": "Slice",
+            "fieldset": "Newsletter",
+            "icon": "send",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "fieldset": "newsletter",
+                "config": {
+                  "placeholder": "Newsletter title",
+                  "label": "Newsletter title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "fieldset": "newsletter",
+                "config": {
+                  "placeholder": "Newsletter subtitle",
+                  "label": "Newsletter subtitle"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Right Side image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 600
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 300,
+                      "height": 300
+                    }
+                  ]
+                }
+              },
+              "buttonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Newsletter button name"
+                }
+              }
+            }
+          },
+          "spotLight": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "A general information title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "A general information subtitle..."
+                }
+              },
+              "item1Image": {
+                "type": "Image",
+                "config": {
+                  "label": "Item1 Image",
+                  "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              },
+              "item1surtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Surtitle",
+                  "placeholder": "Surtitle..."
+                }
+              },
+              "item1title": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "item1subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Subtitle",
+                  "placeholder": "Subtitle..."
+                }
+              },
+              "item1primaryButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Primary button name",
+                  "placeholder": "Button name..."
+                }
+              },
+              "item1primaryButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Item1 Primary button Link"
+                }
+              },
+              "item1secondaryButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Secondary button name",
+                  "placeholder": "Button name..."
+                }
+              },
+              "item1secondaryButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Item1 Secondary button Link"
+                }
+              }
+            },
+            "repeat": {
+              "surtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Surtitle",
+                  "placeholder": "Surtitle..."
+                }
+              },
+              "date": {
+                "type": "Text",
+                "config": {
+                  "label": "Date",
+                  "placeholder": "Date..."
+                }
+              },
+              "surtitleLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Surtitle Link"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "titleLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Title Link"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              }
+            },
+            "fieldset": "Spotlight",
+            "description": "React component",
+            "icon": "art_track"
+          },
+          "calendar": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Subtitle calendar..."
+                }
+              },
+              "subtitleNoEvent": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle no events",
+                  "placeholder": "Subtitle no events ..."
+                }
+              },
+              "calendarLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Calendar link "
+                }
+              },
+              "calendarLinkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Calendar link name",
+                  "placeholder": "Choose the name of the calendar link"
+                }
+              }
+            },
+            "repeat": {
+              "audience": {
+                "type": "Link",
+                "config": {
+                  "label": "Event type link",
+                  "select": "document",
+                  "masks": [
+                    "audience"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Calendar",
+            "description": "React component",
+            "icon": "perm_contact_calendar"
+          },
+          "earnings": {
+            "type": "Slice",
+            "fieldset": "Earnings",
+            "description": "React component",
+            "icon": "attach_money",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice button text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Slice button link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "repeat": {
+              "thumbnail": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 300
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 145,
+                      "height": 145
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select the title",
+                  "useAsTitle": true
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              }
+            }
+          },
+          "articleSeries": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "repeat": {
+              "cardArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Article",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Article Series",
+            "description": "React component",
+            "icon": "apps"
+          },
+          "articleThumbnailList": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "A general title..."
+                }
+              },
+              "highlightedArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Highlighted news",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              },
+              "typeArticle": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "News",
+                    "Press-News",
+                    "Insights"
+                  ],
+                  "label": "Type"
+                }
+              }
+            },
+            "fieldset": "Article Thumbnail list",
+            "description": "React component",
+            "icon": "list"
+          },
+          "stickyThemeMenu": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "activateNewsletterButton": {
+                "type": "Select",
+                "config": {
+                  "default_value": "Yes",
+                  "options": [
+                    "Yes",
+                    "No"
+                  ],
+                  "label": "Activate newsletter button",
+                  "placeholder": "Yes or No"
+                }
+              }
+            },
+            "repeat": {
+              "themeText": {
+                "type": "Text",
+                "config": {
+                  "label": "Theme text",
+                  "placeholder": "Fill theme text"
+                }
+              },
+              "theme": {
+                "type": "Link",
+                "config": {
+                  "label": "Theme",
+                  "select": "document",
+                  "masks": [
+                    "theme-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Sticky Theme Menu",
+            "description": "React component",
+            "icon": "menu"
+          },
+          "textWithThumbnail": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "text": {
+                "type": "Text",
+                "config": {
+                  "label": "Text",
+                  "placeholder": "Text..."
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 600
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnail",
+                      "width": 165,
+                      "height": 165
+                    }
+                  ]
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Link name",
+                  "placeholder": "Choose the name of the link"
+                }
+              }
+            },
+            "fieldset": "Text With Thumbnail",
+            "description": "React component",
+            "icon": "chrome_reader_mode"
+          },
+          "ctaBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "ctaTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "CTA title"
+                }
+              },
+              "ctaSubTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "SubTitle",
+                  "placeholder": "CTA SubTitle"
+                }
+              },
+              "ctaForm": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "no",
+                    "yes"
+                  ],
+                  "label": "Form",
+                  "placeholder": "Yes or no"
+                }
+              },
+              "externalCtaImage": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              },
+              "ctaBackgroundImage": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "no",
+                    "yes"
+                  ],
+                  "label": "Background image",
+                  "placeholder": "Yes or no"
+                }
+              },
+              "ctalUrl": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "ctaUrlTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Link title",
+                  "placeholder": "Link title"
+                }
+              }
+            },
+            "fieldset": "CTA block",
+            "description": "React component",
+            "icon": "short_text"
+          },
+          "ctaDouble": {
+            "type": "Group",
+            "fieldset": "CTA double block",
+            "description": "React component",
+            "icon": "short_text",
+            "config": {
+              "label": "CTA double block",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "bgColor": {
+                  "type": "Select",
+                  "fieldset": "Background color",
+                  "config": {
+                    "label": "Select a background color (default: white)",
+                    "options": [
+                      "white",
+                      "gray"
+                    ],
+                    "default_value": "white"
+                  }
+                },
+                "ctaDoubletitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA double title",
+                    "placeholder": "Title of your CTA block"
+                  }
+                },
+                "ctaDoubleSubtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA double subtitle",
+                    "placeholder": "Subtitle of your CTA block"
+                  }
+                },
+                "ctaDoubleSummary": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "CTA double summary",
+                    "placeholder": "Summary of your CTA block"
+                  }
+                },
+                "ctaDoublelinkTitle1": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link 1 title",
+                    "placeholder": "Link title 1"
+                  }
+                },
+                "ctaDoublelinkUrl1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link"
+                  }
+                },
+                "ctaDoublelinkTitle2": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link 2 title",
+                    "placeholder": "Link title 2"
+                  }
+                },
+                "ctaDoublelinkUrl2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link"
+                  }
+                }
+              }
+            }
+          },
+          "video-embedded": {
+            "type": "Group",
+            "fieldset": "Large video",
+            "description": "React Component",
+            "icon": "ondemand_video",
+            "config": {
+              "label": "Large video",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "videoUrl": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "\"Label video url",
+                    "placeholder": "Fill-in the link of your embedded video"
+                  }
+                },
+                "caption": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption text",
+                    "placeholder": "Fill-in your caption here"
+                  }
+                },
+                "credit": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Credit",
+                    "placeholder": "Fill-in the credit here"
+                  }
+                }
+              }
+            }
+          },
+          "long-quote": {
+            "type": "Group",
+            "fieldset": "Long quote",
+            "description": "React Component",
+            "icon": "format_quote",
+            "config": {
+              "label": "Long quote",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "author": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Author",
+                    "select": "document",
+                    "masks": [
+                      "person"
+                    ]
+                  }
+                },
+                "authorPicture": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Author picture",
+                    "constraint": {
+                      "width": 100,
+                      "height": 100
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "authorName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author name",
+                    "placeholder": "Fill author name"
+                  }
+                },
+                "authorRole": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author role",
+                    "placeholder": "Fill author role"
+                  }
+                },
+                "quote": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Structured text",
+                    "placeholder": "Fill up your quote text"
+                  }
+                }
+              }
+            }
+          },
+          "highlight": {
+            "type": "Group",
+            "fieldset": "Highlight",
+            "description": "React Component",
+            "icon": "star_half",
+            "config": {
+              "label": "Highlight",
+              "repeat": true,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Highlighted paragraph content",
+                    "placeholder": "Write here your highlight block"
+                  }
+                }
+              }
+            }
+          },
+          "contactUsBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "sliceTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "sliceSubtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "fieldset": "Contact Form Block. [To pre-fill the recipient in the form, please add #xxx at the end of the link to the contact form (#privacy #shareholders #investor #media #webmaster)]",
+            "description": "React component",
+            "icon": "message"
+          },
+          "paragraph": {
+            "type": "Group",
+            "fieldset": "Paragraph",
+            "description": "React Component (Group)",
+            "icon": "subject",
+            "config": {
+              "label": "Paragraph",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "Write here your text block"
+                  }
+                }
+              }
+            }
+          },
+          "double-image": {
+            "type": "Group",
+            "fieldset": "Double Image",
+            "description": "React Component",
+            "icon": "image",
+            "config": {
+              "label": "Double Image",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "illustration1": {
+                  "type": "Image",
+                  "config": {
+                    "label": "illustration1",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "credit1": {
+                  "type": "Text",
+                  "config": {
+                    "label": "credit",
+                    "placeholder": "Put your image credit here"
+                  }
+                },
+                "illustration2": {
+                  "type": "Image",
+                  "config": {
+                    "label": "illustration2",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "credit2": {
+                  "type": "Text",
+                  "config": {
+                    "label": "credit",
+                    "placeholder": "Put your image credit here"
+                  }
+                }
+              }
+            }
+          },
+          "newsletterFormBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "sliceTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "sliceSubtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "fieldset": "Newsletter Form Block",
+            "description": "React component",
+            "icon": "message"
+          },
+          "single-image": {
+            "type": "Group",
+            "fieldset": "Single Image",
+            "description": "React Component",
+            "icon": "image",
+            "config": {
+              "label": "Single Image",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "illustration": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Illustration picture",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "caption": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption text",
+                    "placeholder": "Fill-in your caption here"
+                  }
+                },
+                "credit": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Credit",
+                    "placeholder": "Fill-in the credit here"
+                  }
+                }
+              }
+            }
+          },
+          "iframe": {
+            "type": "Group",
+            "fieldset": "Iframe block",
+            "description": "React component",
+            "icon": "attach_money",
+            "config": {
+              "label": "Iframe block",
+              "repeat": false,
+              "fields": {
+                "anchorId": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "bgColor": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "white",
+                    "options": [
+                      "white",
+                      "gray",
+                      "blue"
+                    ],
+                    "label": "Select a background color (default: white)"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Slice title",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": "Select a subtitle"
+                  }
+                },
+                "fullWidth": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Display in Full width ? (default: false)"
+                  }
+                },
+                "disableMargins": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Disable margins ? (default: false)"
+                  }
+                },
+                "allowScrollMessage": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Allow scroll message ? (default: false)"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "iframe Link"
+                  }
+                },
+                "height": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Height (only use to calculate the iframe's ratio, not the real height)"
+                  }
+                },
+                "width": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Width (only use to calculate the iframe's ratio, not the real width)"
+                  }
+                }
+              }
+            }
+          },
+          "tweets": {
+            "type": "Group",
+            "fieldset": "Tweets",
+            "description": "React Component",
+            "icon": "ondemand_video",
+            "config": {
+              "label": "Tweets",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "tweet_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Tweet ID",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "hide_conversation": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "No",
+                    "options": [
+                      "No",
+                      "Yes"
+                    ],
+                    "label": "Hide conversation",
+                    "placeholder": "Yes or no"
+                  }
+                },
+                "hide_cards": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "No",
+                    "options": [
+                      "No",
+                      "Yes"
+                    ],
+                    "label": "Hide cards",
+                    "placeholder": "Yes or no"
+                  }
+                }
+              }
+            }
+          },
+          "breakpointsImages": {
+            "type": "Group",
+            "fieldset": "Breakpoints Images",
+            "description": "React Component",
+            "icon": "dashboard",
+            "config": {
+              "label": "Breakpoints Images",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Lorem ipsum label"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Title"
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": "Subtitle"
+                  }
+                },
+                "smallImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "small image (max width 768px)",
+                    "constraint": {
+                      "width": 768
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "mediumImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "medium image (max width 1024px)",
+                    "constraint": {
+                      "width": 1024
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "largeImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "large image (max width 1920px)",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": []
+                  }
+                }
+              }
+            }
+          },
+          "horizontal-chart": {
+            "type": "Group",
+            "fieldset": "Horizontal bar chart",
+            "description": "React Component",
+            "icon": "short_text",
+            "config": {
+              "label": "Horizontal bar chart",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "first_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "First legend",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "first_data": {
+                  "type": "Number",
+                  "config": {
+                    "label": "First data",
+                    "min": 0,
+                    "max": 100
+                  }
+                },
+                "second_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Second legend",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "second_data": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Second data",
+                    "min": 0,
+                    "max": 100
+                  }
+                },
+                "chart_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Chart legend",
+                    "placeholder": "Add a text"
+                  }
+                }
+              }
+            }
+          },
+          "teamContacts": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              }
+            },
+            "repeat": {
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle, Only fill this field if you want to replace the team name. Or write EMPTY in the field if you don't want to display any team name.",
+                  "placeholder": "Add a text"
+                }
+              },
+              "teamContacts": {
+                "type": "Link",
+                "config": {
+                  "label": "Select a team contact",
+                  "select": "document",
+                  "masks": [
+                    "team_contact"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Team Contacts",
+            "description": "React component",
+            "icon": "contact_mail"
+          },
+          "iframeFullWidth": {
+            "type": "Group",
+            "fieldset": "Iframe Symex",
+            "description": "React Component",
+            "icon": "short_text",
+            "config": {
+              "label": "Iframe Symex",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "iframe link",
+                    "select": "web"
+                  }
+                },
+                "frameId": {
+                  "type": "Text",
+                  "config": {
+                    "label": "symex-iframe-id",
+                    "placeholder": "symex-iframe-id"
+                  }
+                }
+              }
+            }
+          },
+          "thumbnailGallery": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": "#1 My title"
+                }
+              },
+              "content": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Content (1300 characters recommended)",
+                  "placeholder": "Lorem ipsum content"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "image_content": {
+                "type": "Image",
+                "config": {
+                  "label": "Image content (16/9) minimum width: 768px",
+                  "constraint": {
+                    "width": 768,
+                    "height": 432
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 470,
+                      "height": 265
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 456,
+                      "height": 257
+                    }
+                  ]
+                }
+              },
+              "thumbnails": {
+                "type": "Image",
+                "config": {
+                  "label": "Thumbnail (square) minimum width: 361px",
+                  "constraint": {
+                    "width": 361,
+                    "height": 361
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 184,
+                      "height": 184
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 178,
+                      "height": 178
+                    }
+                  ]
+                }
+              },
+              "thumbnails_hover": {
+                "type": "Image",
+                "config": {
+                  "label": "Hoverstate thumbnail (square) minimum width: 361px",
+                  "constraint": {
+                    "width": 361,
+                    "height": 361
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 184,
+                      "height": 184
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 178,
+                      "height": 178
+                    }
+                  ]
+                }
+              }
+            },
+            "fieldset": "Thumbnail Gallery",
+            "description": "React Component",
+            "icon": "view_comfy"
+          },
+          "asideGroup": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "repeat": {
+              "referrer": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "placeholder": "Choose a referrer document"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Side image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 768,
+                      "height": 432
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Card's Title",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Side's Text",
+                  "placeholder": "Select a StructuredText"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Link's Text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "fieldset": "Aside Group",
+            "description": "React component",
+            "icon": "view_compact"
+          },
+          "documentsSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor Label",
+                  "placeholder": "Anchor Label"
+                }
+              },
+              "reverse": {
+                "type": "Select",
+                "config": {
+                  "default_value": "no",
+                  "options": [
+                    "yes",
+                    "no"
+                  ],
+                  "label": "Latest first",
+                  "placeholder": "Choose reverse"
+                }
+              },
+              "blockTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Document title",
+                  "placeholder": "Block title"
+                }
+              }
+            },
+            "repeat": {
+              "target": {
+                "type": "Link",
+                "config": {
+                  "label": "Target"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title"
+                }
+              },
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Label"
+                }
+              }
+            },
+            "fieldset": "Documents",
+            "description": "React Component"
+          },
+          "spotlight-illustration": {
+            "type": "Group",
+            "fieldset": "Spotlight Illustration",
+            "description": "React component",
+            "icon": "featured_play_list",
+            "config": {
+              "label": "",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "tablet",
+                        "width": 768,
+                        "height": 480
+                      },
+                      {
+                        "name": "mobile",
+                        "width": 640,
+                        "height": 600
+                      }
+                    ]
+                  }
+                },
+                "paragraph": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Left paragraph (Optional)",
+                    "placeholder": "lorem..."
+                  }
+                },
+                "videoMp4": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video link (MP4)",
+                    "placeholder": "Video link (MP4)",
+                    "select": "web"
+                  }
+                },
+                "videoWebm": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video Link (WEBM)",
+                    "placeholder": "Video Link (WEBM)",
+                    "select": "web"
+                  }
+                }
+              }
+            }
+          },
+          "threeFiguresSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Subtitle..."
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "button Link name",
+                  "placeholder": "button Link name"
+                }
+              }
+            },
+            "repeat": {
+              "number": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure number",
+                  "placeholder": "Figure number"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure legend",
+                  "placeholder": "Figure legend"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure title",
+                  "placeholder": "Figure title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure subtitle",
+                  "placeholder": "Figure subtitle"
+                }
+              }
+            },
+            "fieldset": "Three Figures Block",
+            "description": "React component"
+          },
+          "twoFiguresSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Write the title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Write the subtitle here"
+                }
+              }
+            },
+            "repeat": {
+              "number": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure number (mandatory)",
+                  "placeholder": "Write the figure number here"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure legend",
+                  "placeholder": "Write the figure legend here"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure title (mandatory)",
+                  "placeholder": "Write the figure title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure subtitle",
+                  "placeholder": "Write the figure subtitle here"
+                }
+              }
+            },
+            "fieldset": "Two Figures Block",
+            "description": "React component"
+          },
+          "suggestedNewsletter": {
+            "type": "Group",
+            "fieldset": "Suggested Newsletter",
+            "description": "React component",
+            "icon": "",
+            "config": {
+              "label": "Paragraph with newsletter module",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "paragraph": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Right-hand paragraph (MANDATORY)",
+                    "placeholder": "Paragraph"
+                  }
+                }
+              }
+            }
+          },
+          "paragraphRelatedContent": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "content": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Article or Publication",
+                  "select": "document",
+                  "masks": [
+                    "article-v2",
+                    "publication"
+                  ],
+                  "allowTargetBlank": false
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Right-hand paragraph (Mandatory)",
+                  "placeholder": "Write your paragraph here"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Replacement title",
+                  "placeholder": "Write your title"
+                }
+              }
+            },
+            "fieldset": "Text + related content",
+            "description": "React component"
+          },
+          "tableBlockSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorID": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "markdownTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Markdown Title",
+                  "placeholder": "Enter your markdown title..."
+                }
+              },
+              "markdownTablePosition": {
+                "type": "Select",
+                "config": {
+                  "default_value": "center",
+                  "options": [
+                    "left",
+                    "center",
+                    "right"
+                  ],
+                  "label": "Markdown table position"
+                }
+              },
+              "markdown": {
+                "type": "Text",
+                "config": {
+                  "label": "Markdown",
+                  "placeholder": "Enter your markdown..."
+                }
+              },
+              "legendMarkdownTable": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend markdown table",
+                  "placeholder": "Enter your markdown legend..."
+                }
+              }
+            },
+            "fieldset": "Table Block",
+            "description": "React component"
+          },
+          "lineChart": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": false
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle",
+                  "useAsTitle": false
+                }
+              },
+              "color": {
+                "type": "Select",
+                "config": {
+                  "default_value": "blue",
+                  "options": [
+                    "blue",
+                    "green",
+                    "yellow",
+                    "red"
+                  ],
+                  "label": "Graph color",
+                  "placeholder": ""
+                }
+              },
+              "graphLegend": {
+                "type": "Text",
+                "config": {
+                  "label": "Graph legend",
+                  "placeholder": "Dollards per year",
+                  "useAsTitle": false
+                }
+              },
+              "csv": {
+                "type": "Link",
+                "config": {
+                  "label": "CSV file",
+                  "placeholder": "revenus.csv",
+                  "select": ""
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend",
+                  "placeholder": "(c) dataset from the internet"
+                }
+              }
+            },
+            "fieldset": "Line Chart",
+            "description": "React Component",
+            "icon": "show_chart"
+          },
+          "pieChart": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": false
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle",
+                  "useAsTitle": false
+                }
+              },
+              "unit": {
+                "type": "Select",
+                "config": {
+                  "default_value": "%",
+                  "options": [
+                    "%",
+                    "€"
+                  ],
+                  "label": "Unit",
+                  "placeholder": ""
+                }
+              },
+              "csv": {
+                "type": "Link",
+                "config": {
+                  "label": "Link (csv file)"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend",
+                  "placeholder": "Select a legend"
+                }
+              }
+            },
+            "fieldset": "Pie Chart",
+            "description": "React Component",
+            "icon": "pie_chart"
+          },
+          "contactList": {
+            "type": "Slice",
+            "repeat": {
+              "contact": {
+                "type": "Link",
+                "config": {
+                  "label": "Contact",
+                  "placeholder": "Contact Link",
+                  "select": "document",
+                  "masks": [
+                    "contact"
+                  ],
+                  "allowTargetBlank": false
+                }
+              }
+            },
+            "fieldset": "Contact List",
+            "description": "React component",
+            "icon": "person"
+          },
+          "pressReleaseList": {
+            "type": "Slice",
+            "non-repeat": {
+              "pressReleaseListTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest Press Releases Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "pressReleaseListLinkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest Press Releases Link Name",
+                  "placeholder": "Write your link name here"
+                }
+              },
+              "pressReleaseListLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Latest Press Releases Link",
+                  "placeholder": "Link (web/document/media)",
+                  "select": null,
+                  "masks": null,
+                  "allowTargetBlank": true
+                }
+              }
+            },
+            "fieldset": "Press Release List",
+            "description": "React Component",
+            "icon": "library_books"
+          },
+          "podcastPlaylist": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Optional)",
+                  "placeholder": "Write your subtitle here"
+                }
+              },
+              "backgroundColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "grey",
+                  "options": [
+                    "white",
+                    "grey"
+                  ],
+                  "label": "Select Color",
+                  "placeholder": ""
+                }
+              },
+              "showId": {
+                "type": "Text",
+                "config": {
+                  "label": "Show ID",
+                  "placeholder": "Write your show ID here (Mandatory)"
+                }
+              },
+              "playlistSlug": {
+                "type": "Text",
+                "config": {
+                  "label": "Playlist Slug",
+                  "placeholder": "Write your playlist slug here"
+                }
+              }
+            },
+            "fieldset": "Podcast Playlist",
+            "description": "React component"
+          },
+          "podcastPlayer": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Optional)",
+                  "placeholder": "Write your subtitle here"
+                }
+              },
+              "backgroundColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "grey",
+                  "options": [
+                    "white",
+                    "grey",
+                    "background story"
+                  ],
+                  "label": "Select Color",
+                  "placeholder": ""
+                }
+              },
+              "showId": {
+                "type": "Text",
+                "config": {
+                  "label": "Show ID",
+                  "placeholder": "Write your show ID here (Mandatory)"
+                }
+              },
+              "podcastId": {
+                "type": "Text",
+                "config": {
+                  "label": "Podcast ID",
+                  "placeholder": "Write your podcast ID here (Mandatory)"
+                }
+              },
+              "ctaLink": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Link"
+                }
+              },
+              "ctaTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "CTA Title",
+                  "placeholder": "Add a text here"
+                }
+              }
+            },
+            "fieldset": "Podcast Player",
+            "description": "React component"
+          }
+        }
+      }
+    }
+  },
+  "FR": {
+    "slug_fr": {
+      "type": "Text",
+      "fieldset": "Slug",
+      "config": {
+        "placeholder": "Slug",
+        "label": "Slug",
+        "useAsTitle": true
+      }
+    },
+    "metaContent_fr": {
+      "type": "Group",
+      "config": {
+        "repeat": false,
+        "fields": {
+          "seoDescription": {
+            "type": "Text",
+            "config": {
+              "label": "SEO Description",
+              "placeholder": "SEO Description"
+            }
+          },
+          "tweet": {
+            "type": "Text",
+            "fieldset": "Social network sharing",
+            "config": {
+              "placeholder": "Tweet",
+              "label": "Tweet (use #AXA in your sharing text)"
+            }
+          },
+          "sharingImage": {
+            "type": "Image",
+            "fieldset": "Sharing Image (1200x628)",
+            "config": {
+              "placeholder": "1200x628",
+              "constraint": {
+                "width": 1200,
+                "height": 628
+              }
+            }
+          },
+          "sharingDescription": {
+            "type": "Text",
+            "fieldset": "Sharing Description",
+            "config": {
+              "placeholder": "Sharing Description",
+              "label": "Sharing Description"
+            }
+          },
+          "title": {
+            "type": "Text",
+            "fieldset": "Main info of your page",
+            "config": {
+              "placeholder": "Your title",
+              "label": "Title"
+            }
+          },
+          "sectionReferrer": {
+            "type": "Select",
+            "config": {
+              "options": [
+                "About us",
+                "Commitments",
+                "Insights",
+                "Press",
+                "Investor",
+                "Careers"
+              ],
+              "label": "Referrer",
+              "placeholder": "Choose your referrer"
+            }
+          },
+          "summary": {
+            "type": "Text",
+            "config": {
+              "label": "Summary",
+              "placeholder": "Your summary"
+            }
+          },
+          "summaryStructured": {
+            "type": "StructuredText",
+            "config": {
+              "label": "Summary video banner",
+              "placeholder": "Enter the video banner summary"
+            }
+          }
+        }
+      }
+    },
+    "restriction_fr": {
+      "type": "Link",
+      "fieldset": "Restriction",
+      "config": {
+        "placeholder": "Reference",
+        "select": "document",
+        "masks": [
+          "restriction"
+        ]
+      }
+    },
+    "sectionName_fr": {
+      "type": "Text",
+      "config": {
+        "placeholder": "Your section name",
+        "label": "Section name"
+      }
+    },
+    "maskType_fr": {
+      "type": "Text",
+      "fieldset": "Configuration (Do not touch this part)",
+      "config": {
+        "placeholder": "Config ID"
+      }
+    },
+    "body_fr": {
+      "type": "Slices",
+      "fieldset": "Content",
+      "config": {
+        "choices": {
+          "anchorBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+                  "label": "Anchor paragraph",
+                  "placeholder": "Anchor Paragraph"
+                }
+              }
+            },
+            "fieldset": "Anchor block",
+            "description": "React component",
+            "icon": "attach_file"
+          },
+          "cardsBlock": {
+            "type": "Slice",
+            "fieldset": "Cards block",
+            "description": "React component",
+            "icon": "crop_7_5",
+            "repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "text",
+                  "placeholder": ""
+                }
+              },
+              "ctaLabel": {
+                "type": "Text",
+                "fieldset": "Link button",
+                "config": {
+                  "label": "Link name",
+                  "placeholder": ""
+                }
+              },
+              "ctaLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Link reference"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "placeholder": "Image",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "carousel": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title of the slice"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": []
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "fieldset": "∞ Carousel - 8 items max",
+            "description": "React Component",
+            "icon": "view_column"
+          },
+          "spotlightNews": {
+            "type": "Slice",
+            "non-repeat": {
+              "mainArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Article link",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": null,
+                    "height": null
+                  },
+                  "thumbnails": []
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              },
+              "eventLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Event Link",
+                  "select": "document",
+                  "masks": [
+                    "event"
+                  ]
+                }
+              }
+            },
+            "repeat": {
+              "article": {
+                "type": "Link",
+                "config": {
+                  "label": "Article link",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Spotlight News",
+            "description": "React component"
+          },
+          "titleWithSubtitle": {
+            "type": "Slice",
+            "fieldset": "Title with subtitle",
+            "description": "React component",
+            "icon": "power_input",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": ""
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": ""
+                }
+              }
+            }
+          },
+          "simpleCardDeck": {
+            "type": "Slice",
+            "fieldset": "Simple Card Deck",
+            "description": "React component",
+            "icon": "view_week",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "fieldset": "Background color",
+                "config": {
+                  "label": "Select a background color (default: white)",
+                  "options": [
+                    "white",
+                    "gray"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Bottom Button's text",
+                  "placeholder": "Select a text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Bottom Button Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "repeat": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Card's image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 768,
+                      "height": 432
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Card's Title",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Card's Text",
+                  "placeholder": "Select a StructuredText"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Button's Text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            }
+          },
+          "iconTextBlock": {
+            "type": "Slice",
+            "fieldset": "Icon Text Block",
+            "icon": "art_track",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "fieldset": "Background color",
+                "config": {
+                  "label": "Select a background color (default: white)",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title"
+                }
+              }
+            },
+            "repeat": {
+              "iconImage": {
+                "type": "Select",
+                "fieldset": "Icon Image",
+                "config": {
+                  "label": "Select your icon",
+                  "options": [
+                    "IconCheck",
+                    "IconInstagram",
+                    "IconDocument",
+                    "IconYoutube",
+                    "IconStar",
+                    "IconLinkedin",
+                    "IconValidation",
+                    "IconContract",
+                    "IconCalendar",
+                    "IconCalendarFull",
+                    "IconWine"
+                  ],
+                  "default_value": "IconCheck"
+                }
+              },
+              "iconColor": {
+                "type": "Select",
+                "fieldset": "Icon color",
+                "config": {
+                  "label": "Select the icon color",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "default_value": "white"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "text",
+                  "placeholder": ""
+                }
+              }
+            }
+          },
+          "cover": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              },
+              "video": {
+                "type": "Embed",
+                "config": {
+                  "label": "Player video",
+                  "placeholder": "Paste a video URL"
+                }
+              },
+              "banner": {
+                "type": "Image",
+                "config": {
+                  "label": "Banner Image (Mandatory)",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 576
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 576
+                    }
+                  ]
+                }
+              },
+              "backgroundVideoMp4": {
+                "type": "Link",
+                "config": {
+                  "label": "Background vidéo (mp4)"
+                }
+              },
+              "backgroundVideoWebm": {
+                "type": "Link",
+                "config": {
+                  "label": "Background vidéo (webm)"
+                }
+              }
+            },
+            "repeat": {
+              "bannerButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Button Name",
+                  "placeholder": "Button name"
+                }
+              },
+              "bannerButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Button Link"
+                }
+              }
+            },
+            "fieldset": "Cover image or video loop",
+            "description": "React Component",
+            "icon": "panorama"
+          },
+          "coverTextOnly": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              }
+            },
+            "fieldset": "Cover text only",
+            "description": "React Component"
+          },
+          "coverColorBackground": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": true
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Mandatory)",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "shortTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Short title",
+                  "placeholder": "Select a short title"
+                }
+              },
+              "video": {
+                "type": "Embed",
+                "config": {
+                  "label": "Player video",
+                  "placeholder": "Paste a video URL"
+                }
+              }
+            },
+            "fieldset": "Cover Color Background",
+            "description": "React Component"
+          },
+          "publicationsSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Publications Title",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "All Publications Link label",
+                  "placeholder": "Write your text here"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "All Publications Link",
+                  "placeholder": "Link (web/document/media)",
+                  "select": null,
+                  "masks": null,
+                  "allowTargetBlank": true
+                }
+              }
+            },
+            "repeat": {
+              "publication": {
+                "type": "Link",
+                "config": {
+                  "label": "Publication",
+                  "select": "document",
+                  "masks": [
+                    "publication"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Publications",
+            "description": "React component"
+          },
+          "contacts": {
+            "type": "Slice",
+            "fieldset": "Contact with photo",
+            "icon": "group_add",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "fieldset": "contacts",
+                "config": {
+                  "placeholder": "Contact title",
+                  "label": "Contact title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "fieldset": "Contacts",
+                "config": {
+                  "placeholder": "Contact subtitle",
+                  "label": "Contact subtitle"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "fieldset": "Contact Link",
+                "config": {
+                  "placeholder": "Contact link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Contact button name"
+                }
+              }
+            },
+            "repeat": {
+              "contact": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "masks": [
+                    "contact"
+                  ],
+                  "placeholder": "Contact document"
+                }
+              }
+            }
+          },
+          "newsletterBlock": {
+            "type": "Slice",
+            "fieldset": "Newsletter",
+            "icon": "send",
+            "description": "React component",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "fieldset": "newsletter",
+                "config": {
+                  "placeholder": "Newsletter title",
+                  "label": "Newsletter title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "fieldset": "newsletter",
+                "config": {
+                  "placeholder": "Newsletter subtitle",
+                  "label": "Newsletter subtitle"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Right Side image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 600
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 300,
+                      "height": 300
+                    }
+                  ]
+                }
+              },
+              "buttonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Newsletter button name"
+                }
+              }
+            }
+          },
+          "spotLight": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "A general information title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "A general information subtitle..."
+                }
+              },
+              "item1Image": {
+                "type": "Image",
+                "config": {
+                  "label": "Item1 Image",
+                  "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              },
+              "item1surtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Surtitle",
+                  "placeholder": "Surtitle..."
+                }
+              },
+              "item1title": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "item1subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Subtitle",
+                  "placeholder": "Subtitle..."
+                }
+              },
+              "item1primaryButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Primary button name",
+                  "placeholder": "Button name..."
+                }
+              },
+              "item1primaryButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Item1 Primary button Link"
+                }
+              },
+              "item1secondaryButtonName": {
+                "type": "Text",
+                "config": {
+                  "label": "Item1 Secondary button name",
+                  "placeholder": "Button name..."
+                }
+              },
+              "item1secondaryButtonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Item1 Secondary button Link"
+                }
+              }
+            },
+            "repeat": {
+              "surtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Surtitle",
+                  "placeholder": "Surtitle..."
+                }
+              },
+              "date": {
+                "type": "Text",
+                "config": {
+                  "label": "Date",
+                  "placeholder": "Date..."
+                }
+              },
+              "surtitleLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Surtitle Link"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "titleLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Title Link"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 1920,
+                    "height": 1080
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              }
+            },
+            "fieldset": "Spotlight",
+            "description": "React component",
+            "icon": "art_track"
+          },
+          "calendar": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Subtitle calendar..."
+                }
+              },
+              "subtitleNoEvent": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle no events",
+                  "placeholder": "Subtitle no events ..."
+                }
+              },
+              "calendarLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Calendar link "
+                }
+              },
+              "calendarLinkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Calendar link name",
+                  "placeholder": "Choose the name of the calendar link"
+                }
+              }
+            },
+            "repeat": {
+              "audience": {
+                "type": "Link",
+                "config": {
+                  "label": "Event type link",
+                  "select": "document",
+                  "masks": [
+                    "audience"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Calendar",
+            "description": "React component",
+            "icon": "perm_contact_calendar"
+          },
+          "earnings": {
+            "type": "Slice",
+            "fieldset": "Earnings",
+            "description": "React component",
+            "icon": "attach_money",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice button text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Slice button link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "repeat": {
+              "thumbnail": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 300
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 145,
+                      "height": 145
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select the title",
+                  "useAsTitle": true
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              }
+            }
+          },
+          "articleSeries": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "repeat": {
+              "cardArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Article",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Article Series",
+            "description": "React component",
+            "icon": "apps"
+          },
+          "articleThumbnailList": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "A general title..."
+                }
+              },
+              "highlightedArticle": {
+                "type": "Link",
+                "config": {
+                  "label": "Highlighted news",
+                  "select": "document",
+                  "masks": [
+                    "article-v2"
+                  ]
+                }
+              },
+              "typeArticle": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "News",
+                    "Press-News",
+                    "Insights"
+                  ],
+                  "label": "Type"
+                }
+              }
+            },
+            "fieldset": "Article Thumbnail list",
+            "description": "React component",
+            "icon": "list"
+          },
+          "stickyThemeMenu": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "activateNewsletterButton": {
+                "type": "Select",
+                "config": {
+                  "default_value": "Yes",
+                  "options": [
+                    "Yes",
+                    "No"
+                  ],
+                  "label": "Activate newsletter button",
+                  "placeholder": "Yes or No"
+                }
+              }
+            },
+            "repeat": {
+              "themeText": {
+                "type": "Text",
+                "config": {
+                  "label": "Theme text",
+                  "placeholder": "Fill theme text"
+                }
+              },
+              "theme": {
+                "type": "Link",
+                "config": {
+                  "label": "Theme",
+                  "select": "document",
+                  "masks": [
+                    "theme-v2"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Sticky Theme Menu",
+            "description": "React component",
+            "icon": "menu"
+          },
+          "textWithThumbnail": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "text": {
+                "type": "Text",
+                "config": {
+                  "label": "Text",
+                  "placeholder": "Text..."
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 600
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnail",
+                      "width": 165,
+                      "height": 165
+                    }
+                  ]
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Link name",
+                  "placeholder": "Choose the name of the link"
+                }
+              }
+            },
+            "fieldset": "Text With Thumbnail",
+            "description": "React component",
+            "icon": "chrome_reader_mode"
+          },
+          "ctaBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "ctaTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "CTA title"
+                }
+              },
+              "ctaSubTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "SubTitle",
+                  "placeholder": "CTA SubTitle"
+                }
+              },
+              "ctaForm": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "no",
+                    "yes"
+                  ],
+                  "label": "Form",
+                  "placeholder": "Yes or no"
+                }
+              },
+              "externalCtaImage": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "small",
+                      "width": 768,
+                      "height": 432
+                    },
+                    {
+                      "name": "Medium",
+                      "width": 970,
+                      "height": 545
+                    }
+                  ]
+                }
+              },
+              "ctaBackgroundImage": {
+                "type": "Select",
+                "config": {
+                  "options": [
+                    "no",
+                    "yes"
+                  ],
+                  "label": "Background image",
+                  "placeholder": "Yes or no"
+                }
+              },
+              "ctalUrl": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "ctaUrlTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Link title",
+                  "placeholder": "Link title"
+                }
+              }
+            },
+            "fieldset": "CTA block",
+            "description": "React component",
+            "icon": "short_text"
+          },
+          "ctaDouble": {
+            "type": "Group",
+            "fieldset": "CTA double block",
+            "description": "React component",
+            "icon": "short_text",
+            "config": {
+              "label": "CTA double block",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "bgColor": {
+                  "type": "Select",
+                  "fieldset": "Background color",
+                  "config": {
+                    "label": "Select a background color (default: white)",
+                    "options": [
+                      "white",
+                      "gray"
+                    ],
+                    "default_value": "white"
+                  }
+                },
+                "ctaDoubletitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA double title",
+                    "placeholder": "Title of your CTA block"
+                  }
+                },
+                "ctaDoubleSubtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "CTA double subtitle",
+                    "placeholder": "Subtitle of your CTA block"
+                  }
+                },
+                "ctaDoubleSummary": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "CTA double summary",
+                    "placeholder": "Summary of your CTA block"
+                  }
+                },
+                "ctaDoublelinkTitle1": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link 1 title",
+                    "placeholder": "Link title 1"
+                  }
+                },
+                "ctaDoublelinkUrl1": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link"
+                  }
+                },
+                "ctaDoublelinkTitle2": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Link 2 title",
+                    "placeholder": "Link title 2"
+                  }
+                },
+                "ctaDoublelinkUrl2": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link"
+                  }
+                }
+              }
+            }
+          },
+          "video-embedded": {
+            "type": "Group",
+            "fieldset": "Large video",
+            "description": "React Component",
+            "icon": "ondemand_video",
+            "config": {
+              "label": "Large video",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "videoUrl": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "\"Label video url",
+                    "placeholder": "Fill-in the link of your embedded video"
+                  }
+                },
+                "caption": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption text",
+                    "placeholder": "Fill-in your caption here"
+                  }
+                },
+                "credit": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Credit",
+                    "placeholder": "Fill-in the credit here"
+                  }
+                }
+              }
+            }
+          },
+          "long-quote": {
+            "type": "Group",
+            "fieldset": "Long quote",
+            "description": "React Component",
+            "icon": "format_quote",
+            "config": {
+              "label": "Long quote",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "author": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Author",
+                    "select": "document",
+                    "masks": [
+                      "person"
+                    ]
+                  }
+                },
+                "authorPicture": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Author picture",
+                    "constraint": {
+                      "width": 100,
+                      "height": 100
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "authorName": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author name",
+                    "placeholder": "Fill author name"
+                  }
+                },
+                "authorRole": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Author role",
+                    "placeholder": "Fill author role"
+                  }
+                },
+                "quote": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Structured text",
+                    "placeholder": "Fill up your quote text"
+                  }
+                }
+              }
+            }
+          },
+          "highlight": {
+            "type": "Group",
+            "fieldset": "Highlight",
+            "description": "React Component",
+            "icon": "star_half",
+            "config": {
+              "label": "Highlight",
+              "repeat": true,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Highlighted paragraph content",
+                    "placeholder": "Write here your highlight block"
+                  }
+                }
+              }
+            }
+          },
+          "contactUsBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "sliceTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "sliceSubtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "fieldset": "Contact Form Block. [To pre-fill the recipient in the form, please add #xxx at the end of the link to the contact form (#privacy #shareholders #investor #media #webmaster)]",
+            "description": "React component",
+            "icon": "message"
+          },
+          "paragraph": {
+            "type": "Group",
+            "fieldset": "Paragraph",
+            "description": "React Component (Group)",
+            "icon": "subject",
+            "config": {
+              "label": "Paragraph",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "Write here your text block"
+                  }
+                }
+              }
+            }
+          },
+          "double-image": {
+            "type": "Group",
+            "fieldset": "Double Image",
+            "description": "React Component",
+            "icon": "image",
+            "config": {
+              "label": "Double Image",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Anchor Label"
+                  }
+                },
+                "illustration1": {
+                  "type": "Image",
+                  "config": {
+                    "label": "illustration1",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "credit1": {
+                  "type": "Text",
+                  "config": {
+                    "label": "credit",
+                    "placeholder": "Put your image credit here"
+                  }
+                },
+                "illustration2": {
+                  "type": "Image",
+                  "config": {
+                    "label": "illustration2",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "credit2": {
+                  "type": "Text",
+                  "config": {
+                    "label": "credit",
+                    "placeholder": "Put your image credit here"
+                  }
+                }
+              }
+            }
+          },
+          "newsletterFormBlock": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "sliceTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "sliceSubtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "fieldset": "Newsletter Form Block",
+            "description": "React component",
+            "icon": "message"
+          },
+          "single-image": {
+            "type": "Group",
+            "fieldset": "Single Image",
+            "description": "React Component",
+            "icon": "image",
+            "config": {
+              "label": "Single Image",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "illustration": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Illustration picture",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 432
+                      },
+                      {
+                        "name": "Medium",
+                        "width": 970,
+                        "height": 545
+                      }
+                    ]
+                  }
+                },
+                "caption": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption text",
+                    "placeholder": "Fill-in your caption here"
+                  }
+                },
+                "credit": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Credit",
+                    "placeholder": "Fill-in the credit here"
+                  }
+                }
+              }
+            }
+          },
+          "iframe": {
+            "type": "Group",
+            "fieldset": "Iframe block",
+            "description": "React component",
+            "icon": "attach_money",
+            "config": {
+              "label": "Iframe block",
+              "repeat": false,
+              "fields": {
+                "anchorId": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "bgColor": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "white",
+                    "options": [
+                      "white",
+                      "gray",
+                      "blue"
+                    ],
+                    "label": "Select a background color (default: white)"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Slice title",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "subtitle": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": "Select a subtitle"
+                  }
+                },
+                "fullWidth": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Display in Full width ? (default: false)"
+                  }
+                },
+                "disableMargins": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Disable margins ? (default: false)"
+                  }
+                },
+                "allowScrollMessage": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "false",
+                    "options": [
+                      "false",
+                      "true"
+                    ],
+                    "label": "Allow scroll message ? (default: false)"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "iframe Link"
+                  }
+                },
+                "height": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Height (only use to calculate the iframe's ratio, not the real height)"
+                  }
+                },
+                "width": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Width (only use to calculate the iframe's ratio, not the real width)"
+                  }
+                }
+              }
+            }
+          },
+          "tweets": {
+            "type": "Group",
+            "fieldset": "Tweets",
+            "description": "React Component",
+            "icon": "ondemand_video",
+            "config": {
+              "label": "Tweets",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "tweet_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Tweet ID",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "hide_conversation": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "No",
+                    "options": [
+                      "No",
+                      "Yes"
+                    ],
+                    "label": "Hide conversation",
+                    "placeholder": "Yes or no"
+                  }
+                },
+                "hide_cards": {
+                  "type": "Select",
+                  "config": {
+                    "default_value": "No",
+                    "options": [
+                      "No",
+                      "Yes"
+                    ],
+                    "label": "Hide cards",
+                    "placeholder": "Yes or no"
+                  }
+                }
+              }
+            }
+          },
+          "breakpointsImages": {
+            "type": "Group",
+            "fieldset": "Breakpoints Images",
+            "description": "React Component",
+            "icon": "dashboard",
+            "config": {
+              "label": "Breakpoints Images",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor Label",
+                    "placeholder": "Lorem ipsum label"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Title"
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": "Subtitle"
+                  }
+                },
+                "smallImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "small image (max width 768px)",
+                    "constraint": {
+                      "width": 768
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "mediumImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "medium image (max width 1024px)",
+                    "constraint": {
+                      "width": 1024
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "largeImage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "large image (max width 1920px)",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": []
+                  }
+                }
+              }
+            }
+          },
+          "horizontal-chart": {
+            "type": "Group",
+            "fieldset": "Horizontal bar chart",
+            "description": "React Component",
+            "icon": "short_text",
+            "config": {
+              "label": "Horizontal bar chart",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "first_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "First legend",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "first_data": {
+                  "type": "Number",
+                  "config": {
+                    "label": "First data",
+                    "min": 0,
+                    "max": 100
+                  }
+                },
+                "second_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Second legend",
+                    "placeholder": "Add a text"
+                  }
+                },
+                "second_data": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Second data",
+                    "min": 0,
+                    "max": 100
+                  }
+                },
+                "chart_legend": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Chart legend",
+                    "placeholder": "Add a text"
+                  }
+                }
+              }
+            }
+          },
+          "teamContacts": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              }
+            },
+            "repeat": {
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle, Only fill this field if you want to replace the team name. Or write EMPTY in the field if you don't want to display any team name.",
+                  "placeholder": "Add a text"
+                }
+              },
+              "teamContacts": {
+                "type": "Link",
+                "config": {
+                  "label": "Select a team contact",
+                  "select": "document",
+                  "masks": [
+                    "team_contact"
+                  ]
+                }
+              }
+            },
+            "fieldset": "Team Contacts",
+            "description": "React component",
+            "icon": "contact_mail"
+          },
+          "iframeFullWidth": {
+            "type": "Group",
+            "fieldset": "Iframe Symex",
+            "description": "React Component",
+            "icon": "short_text",
+            "config": {
+              "label": "Iframe Symex",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "iframe link",
+                    "select": "web"
+                  }
+                },
+                "frameId": {
+                  "type": "Text",
+                  "config": {
+                    "label": "symex-iframe-id",
+                    "placeholder": "symex-iframe-id"
+                  }
+                }
+              }
+            }
+          },
+          "thumbnailGallery": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Add a text"
+                }
+              }
+            },
+            "repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": "#1 My title"
+                }
+              },
+              "content": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Content (1300 characters recommended)",
+                  "placeholder": "Lorem ipsum content"
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Link"
+                }
+              },
+              "image_content": {
+                "type": "Image",
+                "config": {
+                  "label": "Image content (16/9) minimum width: 768px",
+                  "constraint": {
+                    "width": 768,
+                    "height": 432
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 470,
+                      "height": 265
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 456,
+                      "height": 257
+                    }
+                  ]
+                }
+              },
+              "thumbnails": {
+                "type": "Image",
+                "config": {
+                  "label": "Thumbnail (square) minimum width: 361px",
+                  "constraint": {
+                    "width": 361,
+                    "height": 361
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 184,
+                      "height": 184
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 178,
+                      "height": 178
+                    }
+                  ]
+                }
+              },
+              "thumbnails_hover": {
+                "type": "Image",
+                "config": {
+                  "label": "Hoverstate thumbnail (square) minimum width: 361px",
+                  "constraint": {
+                    "width": 361,
+                    "height": 361
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "tablet",
+                      "width": 184,
+                      "height": 184
+                    },
+                    {
+                      "name": "desktop",
+                      "width": 178,
+                      "height": 178
+                    }
+                  ]
+                }
+              }
+            },
+            "fieldset": "Thumbnail Gallery",
+            "description": "React Component",
+            "icon": "view_comfy"
+          },
+          "asideGroup": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "bgColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "white",
+                  "options": [
+                    "white",
+                    "gray",
+                    "blue"
+                  ],
+                  "label": "Select a background color (default: white)"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Slice title",
+                  "placeholder": "Add a text"
+                }
+              },
+              "subtitle": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle"
+                }
+              }
+            },
+            "repeat": {
+              "referrer": {
+                "type": "Link",
+                "config": {
+                  "select": "document",
+                  "placeholder": "Choose a referrer document"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Side image",
+                  "placeholder": "Upload an image...",
+                  "constraint": {
+                    "width": 1920
+                  },
+                  "thumbnails": [
+                    {
+                      "name": "thumbnails",
+                      "width": 768,
+                      "height": 432
+                    }
+                  ]
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Card's Title",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Side's Text",
+                  "placeholder": "Select a StructuredText"
+                }
+              },
+              "buttonText": {
+                "type": "Text",
+                "config": {
+                  "label": "Link's Text",
+                  "placeholder": "Select a Text"
+                }
+              },
+              "buttonLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Choose your link"
+                }
+              }
+            },
+            "fieldset": "Aside Group",
+            "description": "React component",
+            "icon": "view_compact"
+          },
+          "documentsSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor Label",
+                  "placeholder": "Anchor Label"
+                }
+              },
+              "reverse": {
+                "type": "Select",
+                "config": {
+                  "default_value": "no",
+                  "options": [
+                    "yes",
+                    "no"
+                  ],
+                  "label": "Latest first",
+                  "placeholder": "Choose reverse"
+                }
+              },
+              "blockTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Document title",
+                  "placeholder": "Block title"
+                }
+              }
+            },
+            "repeat": {
+              "target": {
+                "type": "Link",
+                "config": {
+                  "label": "Target"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title"
+                }
+              },
+              "label": {
+                "type": "Text",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "Label"
+                }
+              }
+            },
+            "fieldset": "Documents",
+            "description": "React Component"
+          },
+          "spotlight-illustration": {
+            "type": "Group",
+            "fieldset": "Spotlight Illustration",
+            "description": "React component",
+            "icon": "featured_play_list",
+            "config": {
+              "label": "",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Anchor ID",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1920
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "tablet",
+                        "width": 768,
+                        "height": 480
+                      },
+                      {
+                        "name": "mobile",
+                        "width": 640,
+                        "height": 600
+                      }
+                    ]
+                  }
+                },
+                "paragraph": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Left paragraph (Optional)",
+                    "placeholder": "lorem..."
+                  }
+                },
+                "videoMp4": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video link (MP4)",
+                    "placeholder": "Video link (MP4)",
+                    "select": "web"
+                  }
+                },
+                "videoWebm": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Video Link (WEBM)",
+                    "placeholder": "Video Link (WEBM)",
+                    "select": "web"
+                  }
+                }
+              }
+            }
+          },
+          "threeFiguresSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Title..."
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Subtitle..."
+                }
+              },
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "Button link"
+                }
+              },
+              "linkName": {
+                "type": "Text",
+                "config": {
+                  "label": "button Link name",
+                  "placeholder": "button Link name"
+                }
+              }
+            },
+            "repeat": {
+              "number": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure number",
+                  "placeholder": "Figure number"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure legend",
+                  "placeholder": "Figure legend"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure title",
+                  "placeholder": "Figure title"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure subtitle",
+                  "placeholder": "Figure subtitle"
+                }
+              }
+            },
+            "fieldset": "Three Figures Block",
+            "description": "React component"
+          },
+          "twoFiguresSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Write the title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Write the subtitle here"
+                }
+              }
+            },
+            "repeat": {
+              "number": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure number (mandatory)",
+                  "placeholder": "Write the figure number here"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure legend",
+                  "placeholder": "Write the figure legend here"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure title (mandatory)",
+                  "placeholder": "Write the figure title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Figure subtitle",
+                  "placeholder": "Write the figure subtitle here"
+                }
+              }
+            },
+            "fieldset": "Two Figures Block",
+            "description": "React component"
+          },
+          "suggestedNewsletter": {
+            "type": "Group",
+            "fieldset": "Suggested Newsletter",
+            "description": "React component",
+            "icon": "",
+            "config": {
+              "label": "Paragraph with newsletter module",
+              "repeat": false,
+              "fields": {
+                "anchorPoint": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Anchor ID (same as the anchors block)",
+                    "placeholder": "my-anchor-id"
+                  }
+                },
+                "paragraph": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Right-hand paragraph (MANDATORY)",
+                    "placeholder": "Paragraph"
+                  }
+                }
+              }
+            }
+          },
+          "paragraphRelatedContent": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorPoint": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "content": {
+                "type": "Link",
+                "config": {
+                  "label": "Link",
+                  "placeholder": "Article or Publication",
+                  "select": "document",
+                  "masks": [
+                    "article-v2",
+                    "publication"
+                  ],
+                  "allowTargetBlank": false
+                }
+              },
+              "paragraph": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Right-hand paragraph (Mandatory)",
+                  "placeholder": "Write your paragraph here"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Replacement title",
+                  "placeholder": "Write your title"
+                }
+              }
+            },
+            "fieldset": "Text + related content",
+            "description": "React component"
+          },
+          "tableBlockSlice": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorID": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID (same as the anchors block)",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "markdownTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Markdown Title",
+                  "placeholder": "Enter your markdown title..."
+                }
+              },
+              "markdownTablePosition": {
+                "type": "Select",
+                "config": {
+                  "default_value": "center",
+                  "options": [
+                    "left",
+                    "center",
+                    "right"
+                  ],
+                  "label": "Markdown table position"
+                }
+              },
+              "markdown": {
+                "type": "Text",
+                "config": {
+                  "label": "Markdown",
+                  "placeholder": "Enter your markdown..."
+                }
+              },
+              "legendMarkdownTable": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend markdown table",
+                  "placeholder": "Enter your markdown legend..."
+                }
+              }
+            },
+            "fieldset": "Table Block",
+            "description": "React component"
+          },
+          "lineChart": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": false
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle",
+                  "useAsTitle": false
+                }
+              },
+              "color": {
+                "type": "Select",
+                "config": {
+                  "default_value": "blue",
+                  "options": [
+                    "blue",
+                    "green",
+                    "yellow",
+                    "red"
+                  ],
+                  "label": "Graph color",
+                  "placeholder": ""
+                }
+              },
+              "graphLegend": {
+                "type": "Text",
+                "config": {
+                  "label": "Graph legend",
+                  "placeholder": "Dollards per year",
+                  "useAsTitle": false
+                }
+              },
+              "csv": {
+                "type": "Link",
+                "config": {
+                  "label": "CSV file",
+                  "placeholder": "revenus.csv",
+                  "select": ""
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend",
+                  "placeholder": "(c) dataset from the internet"
+                }
+              }
+            },
+            "fieldset": "Line Chart",
+            "description": "React Component",
+            "icon": "show_chart"
+          },
+          "pieChart": {
+            "type": "Slice",
+            "non-repeat": {
+              "anchorId": {
+                "type": "Text",
+                "config": {
+                  "label": "Anchor ID",
+                  "placeholder": "my-anchor-id"
+                }
+              },
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "Select a title",
+                  "useAsTitle": false
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle",
+                  "placeholder": "Select a subtitle",
+                  "useAsTitle": false
+                }
+              },
+              "unit": {
+                "type": "Select",
+                "config": {
+                  "default_value": "%",
+                  "options": [
+                    "%",
+                    "€"
+                  ],
+                  "label": "Unit",
+                  "placeholder": ""
+                }
+              },
+              "csv": {
+                "type": "Link",
+                "config": {
+                  "label": "Link (csv file)"
+                }
+              },
+              "legend": {
+                "type": "Text",
+                "config": {
+                  "label": "Legend",
+                  "placeholder": "Select a legend"
+                }
+              }
+            },
+            "fieldset": "Pie Chart",
+            "description": "React Component",
+            "icon": "pie_chart"
+          },
+          "contactList": {
+            "type": "Slice",
+            "repeat": {
+              "contact": {
+                "type": "Link",
+                "config": {
+                  "label": "Contact",
+                  "placeholder": "Contact Link",
+                  "select": "document",
+                  "masks": [
+                    "contact"
+                  ],
+                  "allowTargetBlank": false
+                }
+              }
+            },
+            "fieldset": "Contact List",
+            "description": "React component",
+            "icon": "person"
+          },
+          "pressReleaseList": {
+            "type": "Slice",
+            "non-repeat": {
+              "pressReleaseListTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest Press Releases Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "pressReleaseListLinkName": {
+                "type": "Text",
+                "config": {
+                  "label": "Latest Press Releases Link Name",
+                  "placeholder": "Write your link name here"
+                }
+              },
+              "pressReleaseListLink": {
+                "type": "Link",
+                "config": {
+                  "label": "Latest Press Releases Link",
+                  "placeholder": "Link (web/document/media)",
+                  "select": null,
+                  "masks": null,
+                  "allowTargetBlank": true
+                }
+              }
+            },
+            "fieldset": "Press Release List",
+            "description": "React Component",
+            "icon": "library_books"
+          },
+          "podcastPlaylist": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Optional)",
+                  "placeholder": "Write your subtitle here"
+                }
+              },
+              "backgroundColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "grey",
+                  "options": [
+                    "white",
+                    "grey"
+                  ],
+                  "label": "Select Color",
+                  "placeholder": ""
+                }
+              },
+              "showId": {
+                "type": "Text",
+                "config": {
+                  "label": "Show ID",
+                  "placeholder": "Write your show ID here (Mandatory)"
+                }
+              },
+              "playlistSlug": {
+                "type": "Text",
+                "config": {
+                  "label": "Playlist Slug",
+                  "placeholder": "Write your playlist slug here"
+                }
+              }
+            },
+            "fieldset": "Podcast Playlist",
+            "description": "React component"
+          },
+          "podcastPlayer": {
+            "type": "Slice",
+            "non-repeat": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "Title (Mandatory)",
+                  "placeholder": "Write your title here"
+                }
+              },
+              "subtitle": {
+                "type": "Text",
+                "config": {
+                  "label": "Subtitle (Optional)",
+                  "placeholder": "Write your subtitle here"
+                }
+              },
+              "backgroundColor": {
+                "type": "Select",
+                "config": {
+                  "default_value": "grey",
+                  "options": [
+                    "white",
+                    "grey",
+                    "background story"
+                  ],
+                  "label": "Select Color",
+                  "placeholder": ""
+                }
+              },
+              "showId": {
+                "type": "Text",
+                "config": {
+                  "label": "Show ID",
+                  "placeholder": "Write your show ID here (Mandatory)"
+                }
+              },
+              "podcastId": {
+                "type": "Text",
+                "config": {
+                  "label": "Podcast ID",
+                  "placeholder": "Write your podcast ID here (Mandatory)"
+                }
+              },
+              "ctaLink": {
+                "type": "Link",
+                "config": {
+                  "label": "CTA Link"
+                }
+              },
+              "ctaTitle": {
+                "type": "Text",
+                "config": {
+                  "label": "CTA Title",
+                  "placeholder": "Add a text here"
+                }
+              }
+            },
+            "fieldset": "Podcast Player",
+            "description": "React component"
+          }
+        }
+      }
+    }
+  }
+}

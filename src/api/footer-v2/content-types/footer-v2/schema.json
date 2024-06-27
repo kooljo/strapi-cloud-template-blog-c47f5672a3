@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_v2s",
+  "info": {
+    "singularName": "footer-v2",
+    "pluralName": "footer-v2s",
+    "displayName": "footer-v2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "primaryTitle": {
+      "type": "string"
+    },
+    "primaryMenu": {
+      "displayName": "menu",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.menu"
+    },
+    "secondaryTitle": {
+      "type": "string"
+    },
+    "secondaryMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.secondary-menu"
+    },
+    "thirdTitle": {
+      "type": "string"
+    },
+    "thirdMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.secondary-menu"
+    },
+    "socialTitle": {
+      "type": "string"
+    },
+    "socialMenu": {
+      "displayName": "socialMenu",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.social-menu"
+    },
+    "legals": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.secondary-menu"
+    }
+  }
+}

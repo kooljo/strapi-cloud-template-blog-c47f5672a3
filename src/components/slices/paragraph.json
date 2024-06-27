@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_slices_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "anchorPoint": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

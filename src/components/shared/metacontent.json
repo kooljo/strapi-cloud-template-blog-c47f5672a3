@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_metacontents",
+  "info": {
+    "displayName": "metacontent",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "seoDescription": {
+      "type": "text"
+    },
+    "tweet": {
+      "type": "text"
+    },
+    "sharingImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "sharingDescription": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sectionReferrer": {
+      "type": "enumeration",
+      "enum": [
+        "About us",
+        "Commitments",
+        "Insights",
+        "Press",
+        "Investor",
+        "Careers"
+      ]
+    },
+    "summary": {
+      "type": "text"
+    },
+    "summaryStructured": {
+      "type": "text"
+    }
+  }
+}

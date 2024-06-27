@@ -1,0 +1,356 @@
+{
+    "slug_en": "axa-world-map",
+    "metaContent_en": [
+        {
+            "sharingImage": {
+                "origin": {
+                    "id": "ZIsWdBIAACsAWj8y",
+                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                    "width": 300,
+                    "height": 149
+                },
+                "width": 1200,
+                "height": 628,
+                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                "edit": {
+                    "background": "#fff",
+                    "zoom": 4.214765100671141,
+                    "crop": {
+                        "x": -32,
+                        "y": 0
+                    }
+                },
+                "credits": null,
+                "alt": null,
+                "provider": "imgix",
+                "thumbnails": {}
+            },
+            "title": "AXA Worldwide",
+            "sectionReferrer": "About us"
+        }
+    ],
+    "sectionName_en": "About Us",
+    "body_en": [
+        {
+            "key": "cover$f6139c6e-5596-4c68-91e8-5a7a6c1134a8",
+            "value": {
+                "repeat": [
+                    {}
+                ],
+                "non-repeat": {
+                    "title": "AXA worldwide",
+                    "subtitle": "A global insurance leader",
+                    "banner": {
+                        "origin": {
+                            "id": "ZIsWdBIAACsAWj8y",
+                            "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                            "width": 300,
+                            "height": 149
+                        },
+                        "width": 1920,
+                        "height": 954,
+                        "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                        "edit": {
+                            "background": "#fff",
+                            "zoom": 6.402684563758389,
+                            "crop": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "credits": null,
+                        "alt": null,
+                        "provider": "imgix",
+                        "thumbnails": {
+                            "small": {
+                                "origin": {
+                                    "id": "ZIsWdBIAACsAWj8y",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                    "width": 300,
+                                    "height": 149
+                                },
+                                "width": 768,
+                                "height": 576,
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 3.865771812080537,
+                                    "crop": {
+                                        "x": -196,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            },
+                            "Medium": {
+                                "origin": {
+                                    "id": "ZIsWdBIAACsAWj8y",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                    "width": 300,
+                                    "height": 149
+                                },
+                                "width": 970,
+                                "height": 576,
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 3.865771812080537,
+                                    "crop": {
+                                        "x": -95,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "key": "paragraph$6d9a339d-aed1-49f9-bbf1-762476847a0a",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "At AXA, our mission to \"Protect what matters\" is embodied by our 145,000 employees and agents around the world. ",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Every day, we provide innovative solutions in the Group's property and casualty, health, life, savings, retirement, and asset management businesses.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Our goal? To help our customers manage risk, improve their care, preserve their wealth, and respond effectively to their specific needs.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "content": {
+                                "spans": [],
+                                "text": ""
+                            },
+                            "type": "image",
+                            "data": {
+                                "origin": {
+                                    "id": "ZRUuuxIAAO4xKr8A",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/b50df14e-aec8-42d5-9b09-8730c4e63484_axa_worldwide_2023.jpg",
+                                    "width": 1321,
+                                    "height": 720
+                                },
+                                "width": 1321,
+                                "height": 720,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/b50df14e-aec8-42d5-9b09-8730c4e63484_axa_worldwide_2023.jpg?auto=compress,format",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 1.0,
+                                    "crop": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix",
+                                "linkTo": null
+                            },
+                            "label": null,
+                            "direction": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "slug_fr": "axa-dans-le-monde",
+    "metaContent_fr": [
+        {
+            "sharingImage": {
+                "origin": {
+                    "id": "ZIsWdBIAACsAWj8y",
+                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                    "width": 300,
+                    "height": 149
+                },
+                "width": 1200,
+                "height": 628,
+                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                "edit": {
+                    "background": "#fff",
+                    "zoom": 4.214765100671141,
+                    "crop": {
+                        "x": -32,
+                        "y": 0
+                    }
+                },
+                "credits": null,
+                "alt": null,
+                "provider": "imgix",
+                "thumbnails": {}
+            },
+            "title": "AXA dans le monde",
+            "sectionReferrer": "About us"
+        }
+    ],
+    "sectionName_fr": "A propos d'AXA",
+    "body_fr": [
+        {
+            "key": "cover$2f61554d-305f-4ed7-944a-c0647c7b3a6b",
+            "value": {
+                "repeat": [
+                    {}
+                ],
+                "non-repeat": {
+                    "title": "AXA dans le monde",
+                    "subtitle": "Un leader de l’assurance",
+                    "banner": {
+                        "origin": {
+                            "id": "ZIsWdBIAACsAWj8y",
+                            "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                            "width": 300,
+                            "height": 149
+                        },
+                        "width": 1920,
+                        "height": 954,
+                        "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                        "edit": {
+                            "background": "#fff",
+                            "zoom": 6.402684563758389,
+                            "crop": {
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        "credits": null,
+                        "alt": null,
+                        "provider": "imgix",
+                        "thumbnails": {
+                            "small": {
+                                "origin": {
+                                    "id": "ZIsWdBIAACsAWj8y",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                    "width": 300,
+                                    "height": 149
+                                },
+                                "width": 768,
+                                "height": 576,
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 3.865771812080537,
+                                    "crop": {
+                                        "x": -196,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            },
+                            "Medium": {
+                                "origin": {
+                                    "id": "ZIsWdBIAACsAWj8y",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                    "width": 300,
+                                    "height": 149
+                                },
+                                "width": 970,
+                                "height": 576,
+                                "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/58a21653-11f1-443f-b8db-e1de6e78104f_world-map.svg",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 3.865771812080537,
+                                    "crop": {
+                                        "x": -95,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "key": "paragraph$1b1d4720-27b2-4a85-affd-3ee7c8cbd0f5",
+            "value": [
+                {
+                    "text": [
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Chez AXA, notre mission de « Protéger ce qui compte » est incarnée par nos 145 000 collaborateurs et agents à travers le monde. ",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Au sein des métiers du Groupe : dommages, de la santé, de la vie, de l'épargne, de la retraite ou de la gestion d'actifs, nous déployons chaque jour des solutions innovantes.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "type": "paragraph",
+                            "content": {
+                                "text": "Notre objectif ? Accompagner nos clients face aux risques, améliorer leurs parcours de soins, préserver leur patrimoine et répondre efficacement à leurs besoins spécifiques.",
+                                "spans": []
+                            }
+                        },
+                        {
+                            "content": {
+                                "spans": [],
+                                "text": ""
+                            },
+                            "type": "image",
+                            "data": {
+                                "origin": {
+                                    "id": "ZRUvehIAACAxKsJA",
+                                    "url": "https://new-axa-prod.s3.amazonaws.com/www-axa-com/b27ecbb4-f01d-436b-a190-56ce308c9074_axa-monde-2023.jpg",
+                                    "width": 1337,
+                                    "height": 740
+                                },
+                                "width": 1337,
+                                "height": 740,
+                                "url": "https://images.axa-contento-118412.eu/www-axa-com/b27ecbb4-f01d-436b-a190-56ce308c9074_axa-monde-2023.jpg?auto=compress,format",
+                                "edit": {
+                                    "background": "#fff",
+                                    "zoom": 1.0,
+                                    "crop": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                },
+                                "credits": null,
+                                "alt": null,
+                                "provider": "imgix",
+                                "linkTo": null
+                            },
+                            "label": null,
+                            "direction": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "type": "page-v2",
+    "tags": [],
+    "lang": "en-us",
+    "grouplang": "ZRUtfBIAAO0wKrl4"
+}

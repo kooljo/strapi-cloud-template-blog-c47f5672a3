@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_slices_cover_color_backgrounds",
+  "info": {
+    "displayName": "coverColorBackground"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "shortTitle": {
+      "type": "string"
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    }
+  }
+}

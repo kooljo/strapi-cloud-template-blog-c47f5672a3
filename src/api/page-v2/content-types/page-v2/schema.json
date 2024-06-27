@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_v2s",
+  "info": {
+    "singularName": "page-v2",
+    "pluralName": "page-v2s",
+    "displayName": "page-v2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "metacontent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.metacontent"
+    },
+    "restriction": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::restriction.restriction"
+    },
+    "sectionName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "slices": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "slices.cover",
+        "slices.cover-color-background",
+        "slices.cover-text-only",
+        "slices.paragraph"
+      ]
+    }
+  }
+}

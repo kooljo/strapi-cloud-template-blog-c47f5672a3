@@ -1,0 +1,106 @@
+{
+    "type": "api::page-v2.page-v2",
+    "id": 2,
+    "data": {
+        "slug": "axa-dans-le-monde",
+        "createdAt": "2024-06-20T06:53:46.472Z",
+        "updatedAt": "2024-06-25T22:44:34.405Z",
+        "publishedAt": "2024-06-20T06:53:47.179Z",
+        "locale": "fr",
+        "sectionName": "about us",
+        "metacontent": {
+            "id": 2,
+            "seoDescription": null,
+            "tweet": null,
+            "sharingDescription": null,
+            "title": "AXA dans le monde",
+            "sectionReferrer": "About us",
+            "summary": null,
+            "summaryStructured": null
+        },
+        "slices": [
+            {
+                "__component": "slices.cover",
+                "id": 3,
+                "anchorId": null,
+                "title": "AXA Dans le monde",
+                "subtitle": "AXA dans le monde",
+                "shortTitle": "Un leader de l'assurance",
+                "video": null,
+                "backgroundVideoMp4": null,
+                "backgroundVideoWebm": null,
+                "bannerButton": []
+            },
+            {
+                "__component": "slices.paragraph",
+                "id": 1,
+                "anchorPoint": null,
+                "text": [
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Chez AXA, notre mission de « Protéger ce qui compte » est incarnée par nos 147 000 collaborateurs et agents à travers le monde."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Au sein des métiers du Groupe : dommages, de la santé, de la vie, de l'épargne, de la retraite ou de la gestion d'actifs, nous déployons chaque jour des solutions innovantes."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": "Notre objectif ? Accompagner nos clients face aux risques, améliorer leurs parcours de soins, préserver leur patrimoine et répondre efficacement à leurs besoins spécifiques."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "text": "",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "children": [
+                            {
+                                "type": "text",
+                                "text": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

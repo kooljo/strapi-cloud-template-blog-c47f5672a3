@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_slices_cover_text_onlies",
+  "info": {
+    "displayName": "coverTextOnly",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "shortTitle": {
+      "type": "string"
+    }
+  }
+}

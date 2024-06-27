@@ -788,82 +788,37 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
   };
 }
 
-export interface ApiAboutAbout extends Schema.SingleType {
-  collectionName: 'abouts';
+export interface ApiFooterV2FooterV2 extends Schema.SingleType {
+  collectionName: 'footer_v2s';
   info: {
-    singularName: 'about';
-    pluralName: 'abouts';
-    displayName: 'About';
-    description: 'Write about yourself and the content you create';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  attributes: {
-    title: Attribute.String;
-    blocks: Attribute.DynamicZone<
-      ['shared.media', 'shared.quote', 'shared.rich-text', 'shared.slider']
-    >;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::about.about',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::about.about',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-  };
-}
-
-export interface ApiArticleArticle extends Schema.CollectionType {
-  collectionName: 'articles';
-  info: {
-    singularName: 'article';
-    pluralName: 'articles';
-    displayName: 'Article';
-    description: 'Create your blog content';
+    singularName: 'footer-v2';
+    pluralName: 'footer-v2s';
+    displayName: 'footer-v2';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    title: Attribute.String;
-    description: Attribute.Text &
-      Attribute.SetMinMaxLength<{
-        maxLength: 80;
-      }>;
-    slug: Attribute.UID<'api::article.article', 'title'>;
-    cover: Attribute.Media;
-    author: Attribute.Relation<
-      'api::article.article',
-      'manyToOne',
-      'api::author.author'
-    >;
-    category: Attribute.Relation<
-      'api::article.article',
-      'manyToOne',
-      'api::category.category'
-    >;
-    blocks: Attribute.DynamicZone<
-      ['shared.media', 'shared.quote', 'shared.rich-text', 'shared.slider']
-    >;
+    primaryTitle: Attribute.String;
+    primaryMenu: Attribute.Component<'footer.menu'>;
+    secondaryTitle: Attribute.String;
+    secondaryMenu: Attribute.Component<'footer.secondary-menu'>;
+    thirdTitle: Attribute.String;
+    thirdMenu: Attribute.Component<'footer.secondary-menu'>;
+    socialTitle: Attribute.String;
+    socialMenu: Attribute.Component<'footer.social-menu'>;
+    legals: Attribute.Component<'footer.secondary-menu'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
-      'api::article.article',
+      'api::footer-v2.footer-v2',
       'oneToOne',
       'admin::user'
     > &
       Attribute.Private;
     updatedBy: Attribute.Relation<
-      'api::article.article',
+      'api::footer-v2.footer-v2',
       'oneToOne',
       'admin::user'
     > &
@@ -871,106 +826,113 @@ export interface ApiArticleArticle extends Schema.CollectionType {
   };
 }
 
-export interface ApiAuthorAuthor extends Schema.CollectionType {
-  collectionName: 'authors';
+export interface ApiPageV2PageV2 extends Schema.CollectionType {
+  collectionName: 'page_v2s';
   info: {
-    singularName: 'author';
-    pluralName: 'authors';
-    displayName: 'Author';
-    description: 'Create authors for your content';
+    singularName: 'page-v2';
+    pluralName: 'page-v2s';
+    displayName: 'page-v2';
+    description: '';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
   };
   attributes: {
-    name: Attribute.String;
-    avatar: Attribute.Media;
-    email: Attribute.String;
-    articles: Attribute.Relation<
-      'api::author.author',
-      'oneToMany',
-      'api::article.article'
+    slug: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    metacontent: Attribute.Component<'shared.metacontent'> &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    restriction: Attribute.Relation<
+      'api::page-v2.page-v2',
+      'oneToOne',
+      'api::restriction.restriction'
     >;
+    sectionName: Attribute.String &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    slices: Attribute.DynamicZone<
+      [
+        'slices.cover',
+        'slices.cover-color-background',
+        'slices.cover-text-only',
+        'slices.paragraph'
+      ]
+    > &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
-      'api::author.author',
+      'api::page-v2.page-v2',
       'oneToOne',
       'admin::user'
     > &
       Attribute.Private;
     updatedBy: Attribute.Relation<
-      'api::author.author',
+      'api::page-v2.page-v2',
       'oneToOne',
       'admin::user'
     > &
       Attribute.Private;
-  };
-}
-
-export interface ApiCategoryCategory extends Schema.CollectionType {
-  collectionName: 'categories';
-  info: {
-    singularName: 'category';
-    pluralName: 'categories';
-    displayName: 'Category';
-    description: 'Organize your content into categories';
-  };
-  options: {
-    draftAndPublish: false;
-  };
-  attributes: {
-    name: Attribute.String;
-    slug: Attribute.UID;
-    articles: Attribute.Relation<
-      'api::category.category',
+    localizations: Attribute.Relation<
+      'api::page-v2.page-v2',
       'oneToMany',
-      'api::article.article'
+      'api::page-v2.page-v2'
     >;
-    description: Attribute.Text;
-    createdAt: Attribute.DateTime;
-    updatedAt: Attribute.DateTime;
-    createdBy: Attribute.Relation<
-      'api::category.category',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
-    updatedBy: Attribute.Relation<
-      'api::category.category',
-      'oneToOne',
-      'admin::user'
-    > &
-      Attribute.Private;
+    locale: Attribute.String;
   };
 }
 
-export interface ApiGlobalGlobal extends Schema.SingleType {
-  collectionName: 'globals';
+export interface ApiRestrictionRestriction extends Schema.CollectionType {
+  collectionName: 'restrictions';
   info: {
-    singularName: 'global';
-    pluralName: 'globals';
-    displayName: 'Global';
-    description: 'Define global settings';
+    singularName: 'restriction';
+    pluralName: 'restrictions';
+    displayName: 'restriction';
+    description: '';
   };
   options: {
-    draftAndPublish: false;
+    draftAndPublish: true;
   };
   attributes: {
-    siteName: Attribute.String & Attribute.Required;
-    favicon: Attribute.Media;
-    siteDescription: Attribute.Text & Attribute.Required;
-    defaultSeo: Attribute.Component<'shared.seo'>;
+    slug_en: Attribute.String & Attribute.Required & Attribute.Unique;
+    restrictionType: Attribute.Enumeration<['zipcode and warning', 'warning']>;
+    countries: Attribute.Enumeration<
+      ['ad', 'ae', 'af', 'ag', 'ai', 'al', 'an', 'ao', 'ar', 'as']
+    >;
+    zipcodeConten: Attribute.Blocks;
+    warningContent: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
-      'api::global.global',
+      'api::restriction.restriction',
       'oneToOne',
       'admin::user'
     > &
       Attribute.Private;
     updatedBy: Attribute.Relation<
-      'api::global.global',
+      'api::restriction.restriction',
       'oneToOne',
       'admin::user'
     > &
@@ -996,11 +958,9 @@ declare module '@strapi/types' {
       'plugin::users-permissions.permission': PluginUsersPermissionsPermission;
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
-      'api::about.about': ApiAboutAbout;
-      'api::article.article': ApiArticleArticle;
-      'api::author.author': ApiAuthorAuthor;
-      'api::category.category': ApiCategoryCategory;
-      'api::global.global': ApiGlobalGlobal;
+      'api::footer-v2.footer-v2': ApiFooterV2FooterV2;
+      'api::page-v2.page-v2': ApiPageV2PageV2;
+      'api::restriction.restriction': ApiRestrictionRestriction;
     }
   }
 }

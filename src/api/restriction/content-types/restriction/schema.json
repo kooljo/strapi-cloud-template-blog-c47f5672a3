@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restrictions",
+  "info": {
+    "singularName": "restriction",
+    "pluralName": "restrictions",
+    "displayName": "restriction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug_en": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "restrictionType": {
+      "type": "enumeration",
+      "enum": [
+        "zipcode and warning",
+        "warning"
+      ]
+    },
+    "countries": {
+      "type": "enumeration",
+      "enum": [
+        "ad",
+        "ae",
+        "af",
+        "ag",
+        "ai",
+        "al",
+        "an",
+        "ao",
+        "ar",
+        "as"
+      ]
+    },
+    "zipcodeConten": {
+      "type": "blocks"
+    },
+    "warningContent": {
+      "type": "blocks"
+    }
+  }
+}

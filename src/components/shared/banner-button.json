@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_banner_buttons",
+  "info": {
+    "displayName": "bannerButton"
+  },
+  "options": {},
+  "attributes": {
+    "bannerButtonName": {
+      "type": "string"
+    },
+    "bannerButtonLink": {
+      "type": "string"
+    }
+  }
+}

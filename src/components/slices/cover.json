@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_cover_covers",
+  "info": {
+    "displayName": "cover",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "shortTitle": {
+      "type": "text"
+    },
+    "banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "video": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    },
+    "backgroundVideoMp4": {
+      "type": "string"
+    },
+    "backgroundVideoWebm": {
+      "type": "string"
+    },
+    "bannerButton": {
+      "displayName": "bannerButton",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.banner-button"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_secondary_menus",
+  "info": {
+    "displayName": "secondaryMenu"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

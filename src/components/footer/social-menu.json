@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_social_menus",
+  "info": {
+    "displayName": "socialMenu"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "enumeration",
+      "enum": [
+        "Facebook",
+        "LInkedin",
+        "Youtube",
+        "Instagram",
+        "Twitter"
+      ]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

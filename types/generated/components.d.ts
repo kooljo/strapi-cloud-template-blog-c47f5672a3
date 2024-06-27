@@ -1,75 +1,143 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
-export interface SharedMedia extends Schema.Component {
-  collectionName: 'components_shared_media';
+export interface FooterMenu extends Schema.Component {
+  collectionName: 'components_footer_menus';
   info: {
-    displayName: 'Media';
-    icon: 'file-video';
-  };
-  attributes: {
-    file: Attribute.Media;
-  };
-}
-
-export interface SharedQuote extends Schema.Component {
-  collectionName: 'components_shared_quotes';
-  info: {
-    displayName: 'Quote';
-    icon: 'indent';
+    displayName: 'menu';
   };
   attributes: {
     title: Attribute.String;
-    body: Attribute.Text;
+    link: Attribute.String;
   };
 }
 
-export interface SharedRichText extends Schema.Component {
-  collectionName: 'components_shared_rich_texts';
+export interface FooterSecondaryMenu extends Schema.Component {
+  collectionName: 'components_footer_secondary_menus';
   info: {
-    displayName: 'Rich text';
-    icon: 'align-justify';
-    description: '';
+    displayName: 'secondaryMenu';
   };
   attributes: {
-    body: Attribute.RichText;
+    title: Attribute.String;
+    link: Attribute.String;
   };
 }
 
-export interface SharedSeo extends Schema.Component {
-  collectionName: 'components_shared_seos';
+export interface FooterSocialMenu extends Schema.Component {
+  collectionName: 'components_footer_social_menus';
   info: {
-    name: 'Seo';
-    icon: 'allergies';
-    displayName: 'Seo';
-    description: '';
+    displayName: 'socialMenu';
   };
   attributes: {
-    metaTitle: Attribute.String & Attribute.Required;
-    metaDescription: Attribute.Text & Attribute.Required;
-    shareImage: Attribute.Media;
+    name: Attribute.Enumeration<
+      ['Facebook', 'LInkedin', 'Youtube', 'Instagram', 'Twitter']
+    >;
+    link: Attribute.String;
   };
 }
 
-export interface SharedSlider extends Schema.Component {
-  collectionName: 'components_shared_sliders';
+export interface SharedBannerButton extends Schema.Component {
+  collectionName: 'components_shared_banner_buttons';
   info: {
-    displayName: 'Slider';
-    icon: 'address-book';
+    displayName: 'bannerButton';
+  };
+  attributes: {
+    bannerButtonName: Attribute.String;
+    bannerButtonLink: Attribute.String;
+  };
+}
+
+export interface SharedMetacontent extends Schema.Component {
+  collectionName: 'components_shared_metacontents';
+  info: {
+    displayName: 'metacontent';
+    icon: 'apps';
+  };
+  attributes: {
+    seoDescription: Attribute.Text;
+    tweet: Attribute.Text;
+    sharingImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    sharingDescription: Attribute.Text;
+    title: Attribute.String;
+    sectionReferrer: Attribute.Enumeration<
+      ['About us', 'Commitments', 'Insights', 'Press', 'Investor', 'Careers']
+    >;
+    summary: Attribute.Text;
+    summaryStructured: Attribute.Text;
+  };
+}
+
+export interface SlicesCoverColorBackground extends Schema.Component {
+  collectionName: 'components_slices_cover_color_backgrounds';
+  info: {
+    displayName: 'coverColorBackground';
+  };
+  attributes: {
+    anchorId: Attribute.String;
+    title: Attribute.String;
+    subtitle: Attribute.String;
+    shortTitle: Attribute.String;
+    video: Attribute.Text & Attribute.CustomField<'plugin::oembed.oembed'>;
+  };
+}
+
+export interface SlicesCoverTextOnly extends Schema.Component {
+  collectionName: 'components_slices_cover_text_onlies';
+  info: {
+    displayName: 'coverTextOnly';
+    icon: 'apps';
+  };
+  attributes: {
+    anchorId: Attribute.String;
+    title: Attribute.String;
+    subtitle: Attribute.String;
+    shortTitle: Attribute.String;
+  };
+}
+
+export interface SlicesCover extends Schema.Component {
+  collectionName: 'components_cover_covers';
+  info: {
+    displayName: 'cover';
+    icon: 'apps';
     description: '';
   };
   attributes: {
-    files: Attribute.Media;
+    anchorId: Attribute.String;
+    title: Attribute.String;
+    subtitle: Attribute.String;
+    shortTitle: Attribute.Text;
+    banner: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    video: Attribute.Text & Attribute.CustomField<'plugin::oembed.oembed'>;
+    backgroundVideoMp4: Attribute.String;
+    backgroundVideoWebm: Attribute.String;
+    bannerButton: Attribute.Component<'shared.banner-button', true>;
+  };
+}
+
+export interface SlicesParagraph extends Schema.Component {
+  collectionName: 'components_slices_paragraphs';
+  info: {
+    displayName: 'paragraph';
+    icon: 'apps';
+  };
+  attributes: {
+    anchorPoint: Attribute.String;
+    text: Attribute.Blocks;
   };
 }
 
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
-      'shared.media': SharedMedia;
-      'shared.quote': SharedQuote;
-      'shared.rich-text': SharedRichText;
-      'shared.seo': SharedSeo;
-      'shared.slider': SharedSlider;
+      'footer.menu': FooterMenu;
+      'footer.secondary-menu': FooterSecondaryMenu;
+      'footer.social-menu': FooterSocialMenu;
+      'shared.banner-button': SharedBannerButton;
+      'shared.metacontent': SharedMetacontent;
+      'slices.cover-color-background': SlicesCoverColorBackground;
+      'slices.cover-text-only': SlicesCoverTextOnly;
+      'slices.cover': SlicesCover;
+      'slices.paragraph': SlicesParagraph;
     }
   }
 }
